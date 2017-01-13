@@ -1708,3 +1708,655 @@ Kompilation erfolgreich beendet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/clefs/alto-clef.ly« wird verarbeitet
 Kompilation erfolgreich beendet
+»MEI-test-set/MEI/grace-notes/grace-notes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/grace-notes/fixed-slurs.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/fixed-slurs.ly:21:329: Fehler: syntax error, unexpected '}'
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \stemUp \grace d''8 e''4 \grace {c''16[ d''16]} e''8[ \grace f''8 g''8 \grace a''8]} e''8[ \grace b''8 f''16 \grace e''8 a''16 \grace a''16 b''16 c'''16]
+                                                                                                                                                                                                                                                                                                                                        } d'''4 } \\ { \stemDown \grace f'8 g'4 \grace {g'16[ f'16]} e'8[ \grace a'8 b'8 \grace e'8]} g'8[ \grace d'8 a'8] r4 } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/fixed-slurs.ly:21:337: Fehler: syntax error, unexpected '}'
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \stemUp \grace d''8 e''4 \grace {c''16[ d''16]} e''8[ \grace f''8 g''8 \grace a''8]} e''8[ \grace b''8 f''16 \grace e''8 a''16 \grace a''16 b''16 c'''16]} d'''4 
+                                                                                                                                                                                                                                                                                                                                                } \\ { \stemDown \grace f'8 g'4 \grace {g'16[ f'16]} e'8[ \grace a'8 b'8 \grace e'8]} g'8[ \grace d'8 a'8] r4 } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/fixed-slurs.ly:21:447: Fehler: syntax error, unexpected '}'
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \stemUp \grace d''8 e''4 \grace {c''16[ d''16]} e''8[ \grace f''8 g''8 \grace a''8]} e''8[ \grace b''8 f''16 \grace e''8 a''16 \grace a''16 b''16 c'''16]} d'''4 } \\ { \stemDown \grace f'8 g'4 \grace {g'16[ f'16]} e'8[ \grace a'8 b'8 \grace e'8]} g'8[ \grace d'8 a'8] r4 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/fixed-slurs.ly:26:10: Fehler: Fehler gefunden, musikalischer Ausdruck wird ignoriert
+\score { 
+         <<
+schwerer Fehler: gescheiterte Dateien: "MEI-test-set/MEI/grace-notes/fixed-slurs.ly"
+»MEI-test-set/MEI/grace-notes/over-bar.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/grace-notes/grace-note-slurs.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/grace-note-slurs.ly:21:321: Fehler: syntax error, unexpected '}'
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \grace d''8 e''4 \grace {c''16[ d''16]} e''8[ \grace f''8 g''8 \grace a''8]} e''8[ \grace b''8 f''16 \grace e''8 a''16 \grace a''16 b''16 c'''16]
+                                                                                                                                                                                                                                                                                                                                } d'''4 } \\ { \grace f'8 g'4 \grace {g'16[ f'16]} e'8[ \grace a'8 b'8 \grace e'8]} g'8[ \grace d'8 a'8] r4 } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/grace-note-slurs.ly:21:329: Fehler: syntax error, unexpected '}'
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \grace d''8 e''4 \grace {c''16[ d''16]} e''8[ \grace f''8 g''8 \grace a''8]} e''8[ \grace b''8 f''16 \grace e''8 a''16 \grace a''16 b''16 c'''16]} d'''4 
+                                                                                                                                                                                                                                                                                                                                        } \\ { \grace f'8 g'4 \grace {g'16[ f'16]} e'8[ \grace a'8 b'8 \grace e'8]} g'8[ \grace d'8 a'8] r4 } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/grace-note-slurs.ly:21:429: Fehler: syntax error, unexpected '}'
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \grace d''8 e''4 \grace {c''16[ d''16]} e''8[ \grace f''8 g''8 \grace a''8]} e''8[ \grace b''8 f''16 \grace e''8 a''16 \grace a''16 b''16 c'''16]} d'''4 } \\ { \grace f'8 g'4 \grace {g'16[ f'16]} e'8[ \grace a'8 b'8 \grace e'8]} g'8[ \grace d'8 a'8] r4 
+                                                                                                                                                                                                                                                                                                                                                                                                                                            } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/grace-note-slurs.ly:26:10: Fehler: Fehler gefunden, musikalischer Ausdruck wird ignoriert
+\score { 
+         <<
+schwerer Fehler: gescheiterte Dateien: "MEI-test-set/MEI/grace-notes/grace-note-slurs.ly"
+»MEI-test-set/MEI/grace-notes/artic-on-grace-notes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/grace-notes/more-articulation.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/grace-notes/slur-placement.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/slur-placement.ly:22:172: Fehler: syntax error, unexpected '}'
+  << { \stemUp \grace g'8 \stemDown c''4. \stemDown d''!8[ \stemUp \grace a''16 \stemUp g''16 \stemUp f''16]} \stemDown e''8[ \stemDown d''8 \stemDown c''8 \stemDown b'8] 
+                                                                                                                                                                           } >> %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/slur-placement.ly:23:171: Fehler: syntax error, unexpected '}'
+  << { \stemUp \grace g'8 \stemDown c''4. \stemDown d''8[ \stemUp \grace a''16 \stemUp g''16 \stemUp f''16]} \stemDown e''8[ \stemDown d''8 \stemDown c''8 \stemDown b'8] 
+                                                                                                                                                                          } >> \bar "|." %3
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/slur-placement.ly:27:10: Fehler: Fehler gefunden, musikalischer Ausdruck wird ignoriert
+\score { 
+         <<
+schwerer Fehler: gescheiterte Dateien: "MEI-test-set/MEI/grace-notes/slur-placement.ly"
+»MEI-test-set/MEI/grace-notes/dynamic-placement.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/grace-notes/two-parts-aligned.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/two-parts-aligned.ly:21:295: Warnung: Keine funktionsfähige Anfangskonfiguration gefunden: Es kann evtl. keine optimale Balkenneigung gefunden werden
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \stemUp \grace g'16 a'16 b'16 \stemDown c''8[ \stemDown g'8 \stemDown d''8 \stemDown b'8] \stemDown d''4 \stemDown b''8
+                                                                                                                                                                                                                                                                                                      [ \stemUp \grace a''16 \stemUp g''16 \stemUp f''16 \stemUp e''16 \stemDown g''8] } >> \bar "|." %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/two-parts-aligned.ly:21:326: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \stemUp \grace g'16 a'16 b'16 \stemDown c''8[ \stemDown g'8 \stemDown d''8 \stemDown b'8] \stemDown d''4 \stemDown b''8[ \stemUp \grace a''16 \stemUp 
+                                                                                                                                                                                                                                                                                                                                     g''16 \stemUp f''16 \stemUp e''16 \stemDown g''8] } >> \bar "|." %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/two-parts-aligned.ly:21:340: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \stemUp \grace g'16 a'16 b'16 \stemDown c''8[ \stemDown g'8 \stemDown d''8 \stemDown b'8] \stemDown d''4 \stemDown b''8[ \stemUp \grace a''16 \stemUp g''16 \stemUp 
+                                                                                                                                                                                                                                                                                                                                                   f''16 \stemUp e''16 \stemDown g''8] } >> \bar "|." %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/two-parts-aligned.ly:21:354: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \stemUp \grace g'16 a'16 b'16 \stemDown c''8[ \stemDown g'8 \stemDown d''8 \stemDown b'8] \stemDown d''4 \stemDown b''8[ \stemUp \grace a''16 \stemUp g''16 \stemUp f''16 \stemUp 
+                                                                                                                                                                                                                                                                                                                                                                 e''16 \stemDown g''8] } >> \bar "|." %1
+Warnung: Kasten mit negativen Ausmaßen wird nicht gezeichnet, 0.13 mal -0.23.
+Warnung: Kasten mit negativen Ausmaßen wird nicht gezeichnet, 0.13 mal -0.24.
+Warnung: Kasten mit negativen Ausmaßen wird nicht gezeichnet, 0.13 mal -0.24.
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/grace-notes/two-voice-grace-notes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/multiple-articulations.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/two-parts-articulation.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/multiple-dots.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/stacc-up-and-down.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/artic-with-slurs.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/articulation/artic-with-slurs.ly:22:3: Warnung: mid-measure time signature without \partial
+  
+  \time 6/8 
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/ledger-lines.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/repeated-articulation.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/articulations.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/artic-on-whole.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/accents-up-and-down.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/dotted-and-staccato.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulation/staccato-simile.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/alignment.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/ratios-no-literal.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/ratios-no-literal.ly:24:3: Warnung: mid-measure time signature without \partial
+  
+  \time 7/8 
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/ratios-no-literal.ly:28:3: Warnung: mid-measure time signature without \partial
+  
+  \time 9/8 
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/tuplets-articulation.ly« wird verarbeitet
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/mixed-value.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/mixed-value.ly:22:3: Warnung: mid-measure time signature without \partial
+  
+  \time 2/4 
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/bracket-placement.ly« wird verarbeitet
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/tuplets-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/tuplet-brackets.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/tuplet-brackets.ly:23:3: Warnung: mid-measure time signature without \partial
+  
+  \time 2/4 
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/beamed-accentuation-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/ratios.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/note-value.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/tuplets-articulation-2-parts.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/tuplets.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/tuplets.ly:22:3: Warnung: mid-measure time signature without \partial
+  
+  \time 6/8 
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/tuplets.ly:24:31: Warnung: mid-measure time signature without \partial
+  \once \numericTimeSignature 
+                              \time 2/2 
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/tuplets.ly:26:31: Warnung: mid-measure time signature without \partial
+  \once \numericTimeSignature 
+                              \time 4/4 
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/tuplets.ly:27:45: Warnung: Balken bereits vorhanden
+  << { \tuplet 3/2 { g'8[ \tuplet 3/2 { g'16
+                                            [ g'16 g'16] } g'8] } r4 r4 \tuplet 3/2 { r8 r8 f'32[ g'32 a'32 c''32] } } >> %4
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/tuplets-two-parts.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/triplets.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/triplets.ly:22:3: Warnung: mid-measure time signature without \partial
+  
+  \time 6/8 
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/triplets.ly:24:3: Warnung: mid-measure time signature without \partial
+  
+  \time 2/4 
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/beamed-accentuation.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/tuplet-brackets-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/mid-bar-repeat.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/da-capo.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/changes-after-repeats.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/3-repeats-2.ly« wird verarbeitet
+Warnung: Volta-Klammer kann nicht beendet werden
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/simple-repeat.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/coda.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/3-repeats.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/second-time-difference.ly« wird verarbeitet
+Warnung: Volta-Klammer kann nicht beendet werden
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/repeat-with-endings.ly« wird verarbeitet
+Warnung: Volta-Klammer kann nicht beendet werden
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/dal-segno.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/repeated-bars.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/repeats/repeats-positioning.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/dynamics/dynamics-1.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/dynamics/poco-molto.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/dynamics/subito.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/dynamics/forte.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/dynamics/long-cresc.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/dynamics/cresc-new-line.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/dynamics/dynamic-placement.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/arpeggios/arpeggios.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/arpeggios/written-out.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/arpeggios/stop-start-arpegg.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/arpeggios/broken-arpegg.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/arpeggios/over-staves.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:285: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s4. \stemUp f8~[ a8~ \change Staff = "staff 1" \stemDown c'8~] \change Staff = "staff 2" } \\ { \stemNeutral g,8
+                                                                                                                                                                                                                                                                                            ~[ b,8~ d8~] < g,~ b,~ d~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:291: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s4. \stemUp f8~[ a8~ \change Staff = "staff 1" \stemDown c'8~] \change Staff = "staff 2" } \\ { \stemNeutral g,8~[ b,8
+                                                                                                                                                                                                                                                                                                  ~ d8~] < g,~ b,~ d~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:187: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s4. \stemUp f8
+                                                                                                                                                                                          ~[ a8~ \change Staff = "staff 1" \stemDown c'8~] \change Staff = "staff 2" } \\ { \stemNeutral g,8~[ b,8~ d8~] < g,~ b,~ d~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:192: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s4. \stemUp f8~[ a8
+                                                                                                                                                                                               ~ \change Staff = "staff 1" \stemDown c'8~] \change Staff = "staff 2" } \\ { \stemNeutral g,8~[ b,8~ d8~] < g,~ b,~ d~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:27:10: Warnung: Notenkopf wird zu inkompatiblem Hals (Typ = 1/8) hinzugefügt
+  << { < 
+         f a >2. } \\ { < g, b, d >2. } >> \bar "|." %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:27:10: Warnung: vielleicht sollte die Eingabe mehrere Stimmen erstellen
+  << { < 
+         f a >2. } \\ { < g, b, d >2. } >> \bar "|." %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:27:12: Warnung: Notenkopf wird zu inkompatiblem Hals (Typ = 1/8) hinzugefügt
+  << { < f 
+           a >2. } \\ { < g, b, d >2. } >> \bar "|." %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:27:12: Warnung: vielleicht sollte die Eingabe mehrere Stimmen erstellen
+  << { < f 
+           a >2. } \\ { < g, b, d >2. } >> \bar "|." %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:233: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s4. \stemUp f8~[ a8~ \change Staff = "staff 1" \stemDown c'8
+                                                                                                                                                                                                                                        ~] \change Staff = "staff 2" } \\ { \stemNeutral g,8~[ b,8~ d8~] < g,~ b,~ d~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:11: Warnung: unbegrenzter Bindebogen
+  << { e'8
+          ~[ g'8~ b'8~] < e' g' b' >4. } \\ { c'2. } >> \bar "|." %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:11: Warnung: unbegrenzter Bindebogen
+  << { e'8
+          ~[ g'8~ b'8~] < e' g' b' >4. } \\ { c'2. } >> \bar "|." %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:11: Warnung: unbegrenzter Bindebogen
+  << { e'8
+          ~[ g'8~ b'8~] < e' g' b' >4. } \\ { c'2. } >> \bar "|." %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:17: Warnung: unbegrenzter Bindebogen
+  << { e'8~[ g'8
+                ~ b'8~] < e' g' b' >4. } \\ { c'2. } >> \bar "|." %2
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/arpeggios/dynamics.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/arpeggios/vib-changes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/cluster-chords-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/dotted-3.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/crossing-stems.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/dotted-2-voiced.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/crossing-stems-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/unisons-5.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/dotted-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/cluster-chords-stem-directions.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/dotted-4.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/unisons-4.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/dotted.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/dotted-unison.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/unisons-accidentals.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/shared-note-heads.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/crossing-whole-notes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/stem-directions.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/unisons-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/unisons.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/chord-test.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/unisons-accidentals-chords.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/cluster-chords.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/stem-directions-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/unisons-3.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/cluster-chords-whole-notes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/dotted-5.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/chords/cluster-chords-3.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/gliss/more-gliss.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/gliss/short-gliss.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/gliss/gliss-precision.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/gliss/interim-pitches.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/gliss/glissando.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/dotted-slur.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/ties-dotted.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/open-ties.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/ties-2-voices.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/ties-unison.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/ties-chords-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/more-slurs.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/with-tenuto.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/ties-chords.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/respelled.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/ties-stems.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/over-system.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/both.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/slurs-with-rests.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/slurs-within-slurs.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/ties.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/ties-overlapping-voices.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/ties-with-other-notes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/ties-slurs/slured-chords.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/all-accidentals.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/grace-notes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/cancellation.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/tied-notes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/quarter-tones.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/key-sig.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/cancellation-repeated-notes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/unconventional-key-sig.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/big-chords.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/accidental-coverage.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/placement-other-symbols.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/octave-displacement.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/two-parts-cancelled.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/respelling.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/treble-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/bass-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/altered-unisons-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/tenor-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/altered-unisons.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/two-stem-chords.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/alto-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/accidentals/key-change.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/2-4.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/beat-division-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/rest-groupings-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/metric-modulation.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/parentheses.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/beams-over-rests.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/beat-division.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/fermatas.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/all-groupings.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/measure-rests.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/old-measure-groups.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/changing-metres.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/meter-changes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/rest-groupings-3.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/fermata-positioning.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/beamings.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/new-rhythm.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/rest-groupings.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/variable-stress.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/polymeter.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/structural-beaming.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:30:3: Warnung: mid-measure time signature without \partial
+  
+  \time 6/8 
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:33:31: Warnung: mid-measure time signature without \partial
+  \once \numericTimeSignature 
+                              \time 4/4 
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:36:3: Warnung: mid-measure time signature without \partial
+  
+  \time 6/8 
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:39:31: Warnung: mid-measure time signature without \partial
+  \once \numericTimeSignature 
+                              \time 4/4 
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/more-beaming-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/note-head-denominator.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/multimeasure-rests.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/rest-positions.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/quadruple-dotted.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/tempo-alterations.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/sustaining-across-beats.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/more-beaming-5.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/tempo-indications.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/feathered-beams.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/more-beaming-4.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/fermata-parts.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/scale-beaming.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/triplet-test.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/dotted-notes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/more-beaming-3.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/tempo-alterations-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/syncopation.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/beaming-over-beats.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/beaming-over-beats.ly:22:3: Warnung: mid-measure time signature without \partial
+  
+  \time 18/16 
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/beaming-over-beats.ly:25:3: Warnung: mid-measure time signature without \partial
+  
+  \time 2/4 
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/beaming-over-beats.ly:28:3: Warnung: mid-measure time signature without \partial
+  
+  \time 2/8 
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/beaming-over-beats.ly:30:3: Warnung: mid-measure time signature without \partial
+  
+  \time 3/4 
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/compound-beats.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/more-beaming.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/staves/one-line-staff.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/staves/one-line-staff.ly:21:73: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #
+                                                                        NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #NaN \set Staff.middleCClefPosition = #NaN << { b'1 } >> \bar "|." %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/staves/one-line-staff.ly:21:141: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #
+                                                                                                                                            NaN \set Staff.middleCClefPosition = #NaN << { b'1 } >> \bar "|." %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/staves/one-line-staff.ly:21:179: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #NaN \set Staff.middleCClefPosition = #
+                                                                                                                                                                                  NaN << { b'1 } >> \bar "|." %1
+Warnung: Typprüfung für »clefPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Warnung: Typprüfung für »middleCPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Warnung: Typprüfung für »middleCClefPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Unbound variable: NaN
+Unbound variable: NaN
+Unbound variable: NaN
+schwerer Fehler: gescheiterte Dateien: "MEI-test-set/MEI/staves/one-line-staff.ly"
+»MEI-test-set/MEI/staves/three-line-staff.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/staves/three-line-staff.ly:21:73: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #
+                                                                        NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #NaN \set Staff.middleCClefPosition = #NaN << { b'1 } >> \bar "|." %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/staves/three-line-staff.ly:21:141: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #
+                                                                                                                                            NaN \set Staff.middleCClefPosition = #NaN << { b'1 } >> \bar "|." %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/staves/three-line-staff.ly:21:179: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #NaN \set Staff.middleCClefPosition = #
+                                                                                                                                                                                  NaN << { b'1 } >> \bar "|." %1
+Warnung: Typprüfung für »clefPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Warnung: Typprüfung für »middleCPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Warnung: Typprüfung für »middleCClefPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Unbound variable: NaN
+Unbound variable: NaN
+Unbound variable: NaN
+schwerer Fehler: gescheiterte Dateien: "MEI-test-set/MEI/staves/three-line-staff.ly"
+»MEI-test-set/MEI/staves/two-line-staff.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/staves/two-line-staff.ly:21:73: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #
+                                                                        NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #NaN \set Staff.middleCClefPosition = #NaN << { d''1 } >> \bar "|." %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/staves/two-line-staff.ly:21:141: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #
+                                                                                                                                            NaN \set Staff.middleCClefPosition = #NaN << { d''1 } >> \bar "|." %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/staves/two-line-staff.ly:21:179: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #NaN \set Staff.middleCClefPosition = #
+                                                                                                                                                                                  NaN << { d''1 } >> \bar "|." %1
+Warnung: Typprüfung für »clefPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Warnung: Typprüfung für »middleCPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Warnung: Typprüfung für »middleCClefPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Unbound variable: NaN
+Unbound variable: NaN
+Unbound variable: NaN
+schwerer Fehler: gescheiterte Dateien: "MEI-test-set/MEI/staves/two-line-staff.ly"
+»MEI-test-set/MEI/beams-and-stems/two-stem-directions.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/beams-and-stems/beam-placement.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/beams-and-stems/beam-placement-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/beams-and-stems/stem-directions.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/beams-and-stems/over-barlines.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/beams-and-stems/stems-through-bar.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/beams-and-stems/stem-directions-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/trills/trill-speeds.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/trills/trills-accidentals.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/trills/trills.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/trills/trill-length.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/trills/trills-with-grace-notes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/trills/multiple-voiced-trill.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/trills/note-change.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/soprano-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/bass-up-15-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/percussion-clef.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/clefs/percussion-clef.ly:21:73: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #
+                                                                        NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #NaN \set Staff.middleCClefPosition = #NaN << { g'1 } >> \bar "|." %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/clefs/percussion-clef.ly:21:141: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #
+                                                                                                                                            NaN \set Staff.middleCClefPosition = #NaN << { g'1 } >> \bar "|." %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/clefs/percussion-clef.ly:21:179: Fehler: GUILE signalisierte einen Fehler für den hier beginnenden Ausdruck
+  \set Staff.clefGlyph = #"clefs.percussion" \set Staff.clefPosition = #NaN \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #NaN \set Staff.middleCClefPosition = #
+                                                                                                                                                                                  NaN << { g'1 } >> \bar "|." %1
+Warnung: Typprüfung für »clefPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Warnung: Typprüfung für »middleCPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Warnung: Typprüfung für »middleCClefPosition« gescheitert; Wert »#<unspecified>« muss vom Typ »number« sein
+Unbound variable: NaN
+Unbound variable: NaN
+Unbound variable: NaN
+schwerer Fehler: gescheiterte Dateien: "MEI-test-set/MEI/clefs/percussion-clef.ly"
+»MEI-test-set/MEI/clefs/changing-clefs-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/changing-clefs.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/baritone-bass-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/changing-clefs-3.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/changing-clefs-5.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/changing-clefs-6.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/treble-down-8-cle-2.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/sub-bass-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/bass-down-8-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/mezzo-soprano-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/bass-up-8-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/changing-clefs-4.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/treble-down-8-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/treble-up-15-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/french-violin-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/treble-up-8.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/baritone-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/treble-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/bass-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/tenor-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/treble-down-8-old-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/alto-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
