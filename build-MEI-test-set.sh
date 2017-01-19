@@ -1,11 +1,12 @@
 #--        MEILER         --#
 #--   build script for    --#
 #--     MEI test set      --#
-#--        v0.1.0         --#
+#--        v0.1.1         --#
 #--                       --#
 #--     programmed by     --#
 #--   Klaus Rettinghaus   --#
 #--                       --#
+startTime=$(date +%s.%N)
 rm README.md
 echo "building MEI test set"
 echo "# MEI test set" >> README.md
@@ -23,5 +24,6 @@ do
   echo "![MEILER](${file%.mei}.preview.png)" >> README.md
   echo "![Sibelius](${dname//MEI\//sibs\/}/${fname%.mei}.png)" >> README.md
 done
-rm -r *.midi
+rm -rf MEI-test-set/MEI/*/*.midi
+echo "$endTime - $startTime" | bc
 echo see tests.log for details
