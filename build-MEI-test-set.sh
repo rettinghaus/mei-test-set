@@ -6,7 +6,7 @@
 #--     programmed by     --#
 #--   Klaus Rettinghaus   --#
 #--                       --#
-startTime=$(date +%s.%N)
+rm build.log
 rm README.md
 echo "building MEI test set"
 echo "# MEI test set" >> README.md
@@ -16,7 +16,7 @@ do
   fname=$(basename "$file")
   dname=$(dirname "$file")
   echo $fname
-  saxonb-xslt -s:$file -xsl:mei2ly.xsl -o:${file%.mei}.ly && lilypond -dno-print-pages -dpreview --formats=png --loglevel=BASIC_PROGRESS --output=$dname ${file%.mei}.ly >> tests.log 2>&1
+  saxonb-xslt -s:$file -xsl:mei2ly.xsl -o:${file%.mei}.ly && lilypond -dno-print-pages -dpreview --formats=png --loglevel=BASIC_PROGRESS --output=$dname ${file%.mei}.ly >> build.log 2>&1
   rm ${file%.mei}.ly
 
   #-- add output to README.md
@@ -25,5 +25,4 @@ do
   echo "![Sibelius](${dname//MEI\//sibs\/}/${fname%.mei}.png)" >> README.md
 done
 rm -rf MEI-test-set/MEI/*/*.midi
-echo "$endTime - $startTime" | bc
-echo see tests.log for details
+echo see build.log for details
