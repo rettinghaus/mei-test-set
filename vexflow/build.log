@@ -1,0 +1,237 @@
+»vexflow/MEI/TC.MultiStave.01.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.tstamp2id.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.dir.03.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Hyphens.Verses.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.VexClef.03.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/Demo.StaffDefChanges.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Ties.TStamps.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.MeterChange.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.dir.02.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Slice.ly« wird verarbeitet
+Warnung: Volta-Klammer kann nicht beendet werden
+Warnung: Volta-Klammer kann nicht beendet werden
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Slice.ly:17:187: Warnung: mid-measure time signature without \partial
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   
+                                                                                                                                                                                          \time 3/4 
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.SystemBreak.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.StaffChange.01.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.StaffChange.01.ly:12:199: Warnung: mid-measure time signature without \partial
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \once \numericTimeSignature 
+                                                                                                                                                                                                      \time 4/4 
+Kompilation erfolgreich beendet
+»vexflow/MEI/VF.Stave.Tempo.ly« wird verarbeitet
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Space.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.MultiStave.03.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Beams.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.CanonicalMEI.01.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.KeySpec.01.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.MultiStave.02.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.VexClef.07.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.SystemBreak.03.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.One-measure.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.id2tstamp.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.CanonicalMEI.02.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.VexClef.06.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.PlainStaff.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.dir.01.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.StaffChange.03.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.StaffChange.03.ly:14:171: Warnung: mid-measure time signature without \partial
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 
+                                                                                                                                                                          \time 3/2 
+Kompilation erfolgreich beendet
+»vexflow/MEI/Demo.Hairpins.Ravel.M2.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Demo.Hairpins.Ravel.M2.ly:27:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "gf" gefunden
+ \key 
+      gf \major \once \numericTimeSignature \time 4/4 \mdivA_staffA }
+schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/Demo.Hairpins.Ravel.M2.ly"
+»vexflow/MEI/Demo.StaveConnectors.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/Bartok-WeddingSong.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:30:171: Warnung: mid-measure time signature without \partial
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 
+                                                                                                                                                                          \time 3/2 
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:36:199: Warnung: mid-measure time signature without \partial
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \once \numericTimeSignature 
+                                                                                                                                                                                                      \time 2/2 
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:23:10: Warnung: Notenhals passt nicht in Balken
+  << { < 
+         d'' d'-\accent >1[ < a' fis'!-\staccato >1] r4 r2 } >> %8
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:23:27: Warnung: Balken wurde hier begonnen
+  << { < d'' d'-\accent >1
+                          [ < a' fis'!-\staccato >1] r4 r2 } >> %8
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:23:31: Warnung: Notenhals passt nicht in Balken
+  << { < d'' d'-\accent >1[ < 
+                              a' fis'!-\staccato >1] r4 r2 } >> %8
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:23:27: Warnung: Balken wurde hier begonnen
+  << { < d'' d'-\accent >1
+                          [ < a' fis'!-\staccato >1] r4 r2 } >> %8
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:23:10: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
+  << { < 
+         d'' d'-\accent >1[ < a' fis'!-\staccato >1] r4 r2 } >> %8
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.MultiStave.04.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.StaffChange.02.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Tuplets.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:11:184: Fehler: syntax error, unexpected '/', expecting \header
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \tuplet 
+                                                                                                                                                                                       / { g'8 a'8 \stemUp b'8 } \tuplet / { \stemNeutral g'8 a'8 b'8 } } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:11:218: Fehler: syntax error, unexpected '/', expecting \header
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \tuplet / { g'8 a'8 \stemUp b'8 } \tuplet 
+                                                                                                                                                                                                                         / { \stemNeutral g'8 a'8 b'8 } } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:14:16: Fehler: syntax error, unexpected '/', expecting \header
+  << { \tuplet 
+               / { \stemNeutral d'8 e'8[ f'8] } g'8[ g'8] } >> %2
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:15:16: Fehler: syntax error, unexpected '/', expecting \header
+  << { \tuplet 
+               / { f'4 d'8 } \tuplet / { g'4 e'8 } } >> %3
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:15:38: Fehler: syntax error, unexpected '/', expecting \header
+  << { \tuplet / { f'4 d'8 } \tuplet 
+                                     / { g'4 e'8 } } >> %3
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:21:16: Fehler: syntax error, unexpected '/', expecting \header
+  << { \tuplet 
+               / { d'4 f'4 f'4 } } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:22:34: Fehler: syntax error, unexpected '/', expecting \header
+  << { \once \tupletDown \tuplet 
+                                 / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } \once \tupletUp \tuplet / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } } >> %2
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:22:102: Fehler: syntax error, unexpected '/', expecting \header
+  << { \once \tupletDown \tuplet / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } \once \tupletUp \tuplet 
+                                                                                                     / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } } >> %2
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:23:16: Fehler: syntax error, unexpected '/', expecting \header
+  << { \tuplet 
+               / { d'8[ d'8 d'8] } \tuplet / { d'8[ e'8 e'8] } } >> %3
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:23:44: Fehler: syntax error, unexpected '/', expecting \header
+  << { \tuplet / { d'8[ d'8 d'8] } \tuplet 
+                                           / { d'8[ e'8 e'8] } } >> %3
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:29:71: Fehler: syntax error, unexpected '/', expecting \header
+  << { \once \override TupletBracket.bracket-visibility = ##f \tuplet 
+                                                                      / { < d' f' >1 e'8[ f'8] } \tuplet / { g'8[ a'8 \stemUp b'8] } } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:29:106: Fehler: syntax error, unexpected '/', expecting \header
+  << { \once \override TupletBracket.bracket-visibility = ##f \tuplet / { < d' f' >1 e'8[ f'8] } \tuplet 
+                                                                                                         / { g'8[ a'8 \stemUp b'8] } } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:35:10: Fehler: Fehler gefunden, musikalischer Ausdruck wird ignoriert
+\score { 
+         <<
+schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.Tuplets.ly"
+»vexflow/MEI/Demo.BachCPrelude.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Slurs.Bezier.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.SystemBreak.01.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Variants.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Variants.ly:12:51: Fehler: syntax error, unexpected '}'
+  << { e'2 e2 \tag #' { a'2 a2 } \tag #' { b'2 b2 
+                                                  } \tag #' { } } >> %2
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Variants.ly:12:63: Fehler: syntax error, unexpected '}', expecting \header
+  << { e'2 e2 \tag #' { a'2 a2 } \tag #' { b'2 b2 } \tag #' { 
+                                                              } } >> %2
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Variants.ly:24:10: Fehler: Fehler gefunden, musikalischer Ausdruck wird ignoriert
+\score { 
+         <<
+schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.Variants.ly"
+»vexflow/MEI/TC.VexClef.01.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/MultiStaveSystemBreak.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.StaveVoices.02.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.StaveVoices.01.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Prokofiev.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.MultiStave.05.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.VexClef.05.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Ties.02.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.SystemBreak.02.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Slurs.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Slurs.TStamps.NoIDs.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Prokofiev.pref.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.MissingAttribute.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.BarLines.ly« wird verarbeitet
+Warnung: Volta-Klammer kann nicht beendet werden
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.VexClef.02.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Hairpins.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Ties.Staves.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Ties.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Fermatas.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.Slurs.TStamps.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/Bartok-WeddingSong-altered.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:30:171: Warnung: mid-measure time signature without \partial
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 
+                                                                                                                                                                          \time 3/2 
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:36:199: Warnung: mid-measure time signature without \partial
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \once \numericTimeSignature 
+                                                                                                                                                                                                      \time 2/2 
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:23:10: Warnung: Notenhals passt nicht in Balken
+  << { < 
+         d'' d'-\accent >1[ < a' fis'!-\staccato >1] r4 r2 } >> %8
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:23:27: Warnung: Balken wurde hier begonnen
+  << { < d'' d'-\accent >1
+                          [ < a' fis'!-\staccato >1] r4 r2 } >> %8
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:23:31: Warnung: Notenhals passt nicht in Balken
+  << { < d'' d'-\accent >1[ < 
+                              a' fis'!-\staccato >1] r4 r2 } >> %8
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:23:27: Warnung: Balken wurde hier begonnen
+  << { < d'' d'-\accent >1
+                          [ < a' fis'!-\staccato >1] r4 r2 } >> %8
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:23:10: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
+  << { < 
+         d'' d'-\accent >1[ < a' fis'!-\staccato >1] r4 r2 } >> %8
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.StaffChange.04.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.VexClef.04.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly:31:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "gf" gefunden
+ \key 
+      gf \major \once \numericTimeSignature \time 4/4 \mdivA_staffA }
+schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly"
+»vexflow/MEI/TC.Dynamics.ly« wird verarbeitet
+Kompilation erfolgreich beendet

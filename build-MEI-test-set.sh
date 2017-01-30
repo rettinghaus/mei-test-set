@@ -20,9 +20,9 @@ do
   rm ${file%.mei}.ly
 
   #-- add output to README.md
-  echo "### [$fname]($fname)" >> README.md
+  echo "### [$fname]($file)" >> README.md
   echo "![MEILER](${file%.mei}.preview.png)" >> README.md
-  echo "![Sibelius](${dname//MEI\//sibs\/}/${fname%.mei}.png)" >> README.md
+  echo "![Sibelius](${dname//MEI\//imgs\/}/${fname%.mei}.png)" >> README.md
 done
 rm -rf MEI-test-set/MEI/*/*.midi
 echo see build.log for details

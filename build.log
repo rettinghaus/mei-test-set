@@ -1,3 +1,27 @@
+»MEI-test-set/MEI/articulations/multiple-articulations.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/two-parts-articulation.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/multiple-dots.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/stacc-up-and-down.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/artic-with-slurs.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/ledger-lines.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/repeated-articulation.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/articulations.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/artic-on-whole.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/accents-up-and-down.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/dotted-and-staccato.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/staccato-simile.ly« wird verarbeitet
+Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/grace-notes.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/fixed-slurs.ly« wird verarbeitet
@@ -51,61 +75,19 @@ Warnung: Kasten mit negativen Ausmaßen wird nicht gezeichnet, 0.13 mal -0.24.
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/two-voice-grace-notes.ly« wird verarbeitet
 Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/multiple-articulations.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/two-parts-articulation.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/multiple-dots.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/stacc-up-and-down.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/artic-with-slurs.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/articulation/artic-with-slurs.ly:22:3: Warnung: mid-measure time signature without \partial
-  
-  \time 6/8 
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/ledger-lines.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/repeated-articulation.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/articulations.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/artic-on-whole.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/accents-up-and-down.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/dotted-and-staccato.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/articulation/staccato-simile.ly« wird verarbeitet
-Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/alignment.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/ratios-no-literal.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/ratios-no-literal.ly:24:3: Warnung: mid-measure time signature without \partial
-  
-  \time 7/8 
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/ratios-no-literal.ly:28:3: Warnung: mid-measure time signature without \partial
-  
-  \time 9/8 
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/tuplets-articulation.ly« wird verarbeitet
-Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/mixed-value.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/mixed-value.ly:22:3: Warnung: mid-measure time signature without \partial
-  
-  \time 2/4 
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/bracket-placement.ly« wird verarbeitet
-Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
-Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/tuplets-2.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/tuplet-brackets.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/tuplet-brackets.ly:23:3: Warnung: mid-measure time signature without \partial
-  
-  \time 2/4 
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/beamed-accentuation-2.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -116,15 +98,6 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/tuplets-articulation-2-parts.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/tuplets.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/tuplets.ly:22:3: Warnung: mid-measure time signature without \partial
-  
-  \time 6/8 
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/tuplets.ly:24:31: Warnung: mid-measure time signature without \partial
-  \once \numericTimeSignature 
-                              \time 2/2 
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/tuplets.ly:26:31: Warnung: mid-measure time signature without \partial
-  \once \numericTimeSignature 
-                              \time 4/4 
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/tuplets-two-parts.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -147,19 +120,18 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/repeats/changes-after-repeats.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/repeats/3-repeats-2.ly« wird verarbeitet
-Warnung: Volta-Klammer kann nicht beendet werden
+Warnung: Wiederholungsklammer bereits vorhanden, wird vorzeitig beendet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/repeats/simple-repeat.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/repeats/coda.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/repeats/3-repeats.ly« wird verarbeitet
+Warnung: Wiederholungsklammer bereits vorhanden, wird vorzeitig beendet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/repeats/second-time-difference.ly« wird verarbeitet
-Warnung: Volta-Klammer kann nicht beendet werden
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/repeats/repeat-with-endings.ly« wird verarbeitet
-Warnung: Volta-Klammer kann nicht beendet werden
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/repeats/dal-segno.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -194,45 +166,30 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/arpeggios/broken-arpegg.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/arpeggios/over-staves.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:285: Warnung: unbegrenzter Bindebogen
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s4. \stemUp f8~[ a8~ \change Staff = "staff 1" \stemDown c'8~] \change Staff = "staff 2" } \\ { \stemNeutral g,8
-                                                                                                                                                                                                                                                                                            ~[ b,8~ d8~] < g,~ b,~ d~ >4. } >> %1
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:291: Warnung: unbegrenzter Bindebogen
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s4. \stemUp f8~[ a8~ \change Staff = "staff 1" \stemDown c'8~] \change Staff = "staff 2" } \\ { \stemNeutral g,8~[ b,8
-                                                                                                                                                                                                                                                                                                  ~ d8~] < g,~ b,~ d~ >4. } >> %1
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:187: Warnung: unbegrenzter Bindebogen
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s4. \stemUp f8
-                                                                                                                                                                                          ~[ a8~ \change Staff = "staff 1" \stemDown c'8~] \change Staff = "staff 2" } \\ { \stemNeutral g,8~[ b,8~ d8~] < g,~ b,~ d~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:236: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8-~[ a8-~ \stemDown c'8-~] } \\ { \stemUp g,8
+                                                                                                                                                                                                                                           -~[ b,8-~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:243: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8-~[ a8-~ \stemDown c'8-~] } \\ { \stemUp g,8-~[ b,8
+                                                                                                                                                                                                                                                  -~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
 /home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:192: Warnung: unbegrenzter Bindebogen
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s4. \stemUp f8~[ a8
-                                                                                                                                                                                               ~ \change Staff = "staff 1" \stemDown c'8~] \change Staff = "staff 2" } \\ { \stemNeutral g,8~[ b,8~ d8~] < g,~ b,~ d~ >4. } >> %1
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:27:10: Warnung: Notenkopf wird zu inkompatiblem Hals (Typ = 1/8) hinzugefügt
-  << { < 
-         f a >2. } \\ { < g, b, d >2. } >> \bar "|." %2
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:27:10: Warnung: vielleicht sollte die Eingabe mehrere Stimmen erstellen
-  << { < 
-         f a >2. } \\ { < g, b, d >2. } >> \bar "|." %2
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:27:12: Warnung: Notenkopf wird zu inkompatiblem Hals (Typ = 1/8) hinzugefügt
-  << { < f 
-           a >2. } \\ { < g, b, d >2. } >> \bar "|." %2
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:27:12: Warnung: vielleicht sollte die Eingabe mehrere Stimmen erstellen
-  << { < f 
-           a >2. } \\ { < g, b, d >2. } >> \bar "|." %2
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:233: Warnung: unbegrenzter Bindebogen
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s4. \stemUp f8~[ a8~ \change Staff = "staff 1" \stemDown c'8
-                                                                                                                                                                                                                                        ~] \change Staff = "staff 2" } \\ { \stemNeutral g,8~[ b,8~ d8~] < g,~ b,~ d~ >4. } >> %1
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:11: Warnung: unbegrenzter Bindebogen
-  << { e'8
-          ~[ g'8~ b'8~] < e' g' b' >4. } \\ { c'2. } >> \bar "|." %2
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:11: Warnung: unbegrenzter Bindebogen
-  << { e'8
-          ~[ g'8~ b'8~] < e' g' b' >4. } \\ { c'2. } >> \bar "|." %2
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:11: Warnung: unbegrenzter Bindebogen
-  << { e'8
-          ~[ g'8~ b'8~] < e' g' b' >4. } \\ { c'2. } >> \bar "|." %2
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:17: Warnung: unbegrenzter Bindebogen
-  << { e'8~[ g'8
-                ~ b'8~] < e' g' b' >4. } \\ { c'2. } >> \bar "|." %2
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8
+                                                                                                                                                                                               -~[ a8-~ \stemDown c'8-~] } \\ { \stemUp g,8-~[ b,8-~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:198: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8-~[ a8
+                                                                                                                                                                                                     -~ \stemDown c'8-~] } \\ { \stemUp g,8-~[ b,8-~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:214: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8-~[ a8-~ \stemDown c'8
+                                                                                                                                                                                                                     -~] } \\ { \stemUp g,8-~[ b,8-~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:41: Warnung: unbegrenzter Bindebogen
+  << { \stemDown c'2. } \\ { \stemUp e'8
+                                        -~[ g'8-~ b'8-~] < e' g' b' >4. } >> \bar "|." %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:48: Warnung: unbegrenzter Bindebogen
+  << { \stemDown c'2. } \\ { \stemUp e'8-~[ g'8
+                                               -~ b'8-~] < e' g' b' >4. } >> \bar "|." %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:194: Warnung: Keine funktionsfähige Anfangskonfiguration gefunden: Es kann evtl. keine optimale Balkenneigung gefunden werden
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8-~
+                                                                                                                                                                                                 [ a8-~ \stemDown c'8-~] } \\ { \stemUp g,8-~[ b,8-~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/arpeggios/dynamics.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -290,15 +247,13 @@ Kompilation erfolgreich beendet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/chords/cluster-chords-3.ly« wird verarbeitet
 Kompilation erfolgreich beendet
-»MEI-test-set/MEI/gliss/more-gliss.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/gliss/short-gliss.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/gliss/gliss-precision.ly« wird verarbeitet
-Kompilation erfolgreich beendet
 »MEI-test-set/MEI/gliss/interim-pitches.ly« wird verarbeitet
 Kompilation erfolgreich beendet
-»MEI-test-set/MEI/gliss/glissando.ly« wird verarbeitet
+»MEI-test-set/MEI/scores-and-layout/Untitled.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/scores-and-layout/key-and-time-signature-changes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/lyrics/one-line.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/ties-slurs/dotted-slur.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -404,8 +359,6 @@ Kompilation erfolgreich beendet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/old-measure-groups.ly« wird verarbeitet
 Kompilation erfolgreich beendet
-»MEI-test-set/MEI/meter/changing-metres.ly« wird verarbeitet
-Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/meter-changes.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/rest-groupings-3.ly« wird verarbeitet
@@ -423,18 +376,16 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/polymeter.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/structural-beaming.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:30:3: Warnung: mid-measure time signature without \partial
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:28:3: Warnung: mid-measure time signature without \partial
   
   \time 6/8 
-Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:33:31: Warnung: mid-measure time signature without \partial
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:31:31: Warnung: mid-measure time signature without \partial
   \once \numericTimeSignature 
                               \time 4/4 
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:36:3: Warnung: mid-measure time signature without \partial
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:33:3: Warnung: mid-measure time signature without \partial
   
   \time 6/8 
-Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:39:31: Warnung: mid-measure time signature without \partial
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:36:31: Warnung: mid-measure time signature without \partial
   \once \numericTimeSignature 
                               \time 4/4 
 Kompilation erfolgreich beendet
@@ -472,6 +423,8 @@ Kompilation erfolgreich beendet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/tempo-alterations-2.ly« wird verarbeitet
 Kompilation erfolgreich beendet
+»MEI-test-set/MEI/meter/changing-meters.ly« wird verarbeitet
+Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/syncopation.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/beaming-over-beats.ly« wird verarbeitet
@@ -487,6 +440,8 @@ Kompilation erfolgreich beendet
 /home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/beaming-over-beats.ly:30:3: Warnung: mid-measure time signature without \partial
   
   \time 3/4 
+Programmierfehler: No viable beam quanting found.  Using unquanted y value.
+Fortsetzung, die Daumen drücken
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/compound-beats.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -575,4 +530,6 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/clefs/treble-down-8-old-clef.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/clefs/alto-clef.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/clefs/changing-clefs-7.ly« wird verarbeitet
 Kompilation erfolgreich beendet
