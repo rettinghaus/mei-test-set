@@ -8,6 +8,7 @@
 }
 
 \paper {
+  paper-width = 0.8*600\staff-space
 }
 
 mdivA_staffA = {

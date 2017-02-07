@@ -27,6 +27,11 @@
 }
 
 \paper {
+  paper-height = 0.6*1500\staff-space
+  paper-width = 0.6*800\staff-space
+  top-margin = 225\staff-space
+  right-margin = 50\staff-space
+  left-margin = 50\staff-space
 }
 
 mdivA_staffA = {
@@ -191,4 +196,81 @@ mdivA_staffE = {
   << { \stemUp < e' g' c'' >2 r4 } >> \bar "||" %20
   << { \stemUp < e' g' >2. } >> %21
   { \break }
-  <<
+  << { \stemUp < e' c'' >2 < e' g' >4 } >> %22
+  << { \stemUp < e' g' >2. } >> %23
+  << { \stemUp < d' g' >2. } >> %24
+  << { \stemUp < b d' g' >4 r4 r4 } >> %25
+  << { \stemUp < b d' g' >4 r4 r4 } >> %26
+  << { \stemUp < b d' g' >2. } >> \bar ":|." %27
+}
+
+mdivA_staffF = {
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 \key c \major   \time 3/4 
+  << { < c g c' >4 r4 r4 } >> %1
+  << { \stemUp c4 \stemDown e4 \stemDown g4 } >> %2
+  << { \stemUp c4 r4 r4 } >> %3
+  << { \stemUp c4 \stemDown e4 \stemDown g4 } >> %4
+  << { \stemUp c4 r4 r4 } >> %5
+  << { \stemUp c2 r4 } >> \bar "||" %6
+  { \break }
+  \bar ".|:" << { \stemUp c2. } >> %7
+  << { \stemUp b,2. } >> %8
+  << { \stemUp c2. } >> %9
+  << { \stemUp b,4 g,4 b,4 } >> %10
+  << { \stemUp c2. } >> %11
+  << { \stemUp b,2 c4 } >> %12
+  << { \stemUp c4 \stemDown g4 \stemUp g,4 } >> %13
+  << { \stemUp c2. } >> %14
+  << { \stemDown < c g c' >4 r4 r4 } >> %15
+  { \break }
+  << { \stemUp c4 \stemDown e4 \stemDown g4 } >> %16
+  << { \stemUp c4 r4 r4 } >> %17
+  << { \stemUp c4 \stemDown e4 \stemDown g4 } >> %18
+  << { \stemUp c4 r4 r4 } >> %19
+  << { \stemUp c2 r4 } >> \bar "||" %20
+  << { \stemUp c2. } >> %21
+  { \break }
+  << { \stemDown c'2 \stemUp c4 } >> %22
+  << { \stemUp c2. } >> %23
+  << { \stemUp g,2. } >> %24
+  << { \stemUp g,4 r4 r4 } >> %25
+  << { \stemUp g,4 r4 r4 } >> %26
+  << { \stemUp g,2. } >> \bar ":|." %27
+}
+
+
+\score { <<
+\new StaffGroup <<
+ \set StaffGroup.systemStartDelimiter = #'SystemStartBar
+\new StaffGroup <<
+ \set StaffGroup.systemStartDelimiter = #'SystemStartBracket
+  \override StaffGroup.BarLine.allow-span-bar = ##t
+ \new Staff = "staff 1" \with { instrumentName = #"Trumpet 1 (C)" shortInstrumentName = #"Tpt. 1 (C)" } {
+ \autoBeamOff \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \mdivA_staffA }
+ \new Staff = "staff 2" \with { instrumentName = #"Trumpet 2 (C)" shortInstrumentName = #"Tpt. 2 (C)" } {
+ \autoBeamOff \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \mdivA_staffB }
+ \new Staff = "staff 3" \with { instrumentName = #"Trumpet 3 (C)" shortInstrumentName = #"Tpt. 3 (C)" } {
+ \autoBeamOff \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \mdivA_staffC }
+>>
+ \new Staff = "staff 4" \with { instrumentName = #"Timpani" shortInstrumentName = #"Timp." } {
+ \autoBeamOff \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \mdivA_staffD }
+\new StaffGroup \with { instrumentName = #"Organ" shortInstrumentName = #"Org." } <<
+ \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
+  \override StaffGroup.BarLine.allow-span-bar = ##t
+ \new Staff = "staff 5" {
+ \autoBeamOff \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \mdivA_staffE }
+ \new Staff = "staff 6" {
+ \autoBeamOff \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \mdivA_staffF }
+>>
+>>
+>>
+\layout {
+}
+}
+

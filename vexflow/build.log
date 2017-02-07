@@ -38,6 +38,8 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.MultiStave.03.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Beams.ly« wird verarbeitet
+Warnung: Komprimierung über gesamte Seite bei 8.2 Notensystemabständen
+Warnung: Seite 1 wurde komprimiert
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.CanonicalMEI.01.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -51,8 +53,27 @@ Kompilation erfolgreich beendet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.One-measure.ly« wird verarbeitet
 Kompilation erfolgreich beendet
+»vexflow/MEI/TC.KeySpec.03.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.KeySpec.03.ly:23:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "cf" gefunden
+ \key 
+      cf \major \once \numericTimeSignature \time 4/4 \mdivA_staffA }
+schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.KeySpec.03.ly"
 »vexflow/MEI/TC.id2tstamp.ly« wird verarbeitet
 Kompilation erfolgreich beendet
+»vexflow/MEI/TC.PageLayoutAutoWidths.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:14:60: Fehler: syntax error, unexpected STRING, expecting '.' or '=' or ','
+						Transcoded 
+                                                           from a MusicXML version 2.0 file on 2011-10-10 using the
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:18:57: Fehler: syntax error, unexpected STRING, expecting '='
+						Cleaned 
+                                                        up MEI file automatically using
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:23:57: Fehler: syntax error, unexpected STRING, expecting '='
+						Cleaned 
+                                                        up MEI file automatically using
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:27:1: Fehler: syntax error, unexpected '}', expecting UNSIGNED or SCM_IDENTIFIER or SCM_TOKEN or STRING
+
+}
+schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.PageLayoutAutoWidths.ly"
 »vexflow/MEI/TC.CanonicalMEI.02.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.VexClef.06.ly« wird verarbeitet
@@ -96,6 +117,8 @@ Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Takt
 /home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:23:10: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
   << { < 
          d'' d'-\accent >1[ < a' fis'!-\staccato >1] r4 r2 } >> %8
+Kompilation erfolgreich beendet
+»vexflow/MEI/TC.KeySpec.02.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.MultiStave.04.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -163,12 +186,31 @@ schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.Variants.ly"
 Kompilation erfolgreich beendet
 »vexflow/MEI/MultiStaveSystemBreak.ly« wird verarbeitet
 Kompilation erfolgreich beendet
+»vexflow/MEI/TC.KeySpec.04.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.KeySpec.04.ly:23:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "cs" gefunden
+ \key 
+      cs \major \once \numericTimeSignature \time 4/4 \mdivA_staffA }
+schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.KeySpec.04.ly"
 »vexflow/MEI/TC.StaveVoices.02.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.StaveVoices.01.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Prokofiev.ly« wird verarbeitet
 Kompilation erfolgreich beendet
+»vexflow/MEI/TC.PageLayout.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:14:60: Fehler: syntax error, unexpected STRING, expecting '.' or '=' or ','
+						Transcoded 
+                                                           from a MusicXML version 2.0 file on 2011-10-10 using the
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:18:57: Fehler: syntax error, unexpected STRING, expecting '='
+						Cleaned 
+                                                        up MEI file automatically using
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:23:57: Fehler: syntax error, unexpected STRING, expecting '='
+						Cleaned 
+                                                        up MEI file automatically using
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:27:1: Fehler: syntax error, unexpected '}', expecting UNSIGNED or SCM_IDENTIFIER or SCM_TOKEN or STRING
+
+}
+schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.PageLayout.ly"
 »vexflow/MEI/TC.MultiStave.05.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.VexClef.05.ly« wird verarbeitet
