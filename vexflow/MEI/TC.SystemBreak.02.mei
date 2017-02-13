@@ -1,23 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../odd/mei2vexflow.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../odd/mei2vexflow.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei">
-	<meiHead>
-		<fileDesc>
-			<titleStmt>
-				<title/>
-			</titleStmt>
-			<pubStmt/>
-		</fileDesc>
-	</meiHead>
+<?xml-model href="../odd/mei2vexflow.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../odd/mei2vexflow.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><mei xmlns="http://www.music-encoding.org/ns/mei">
+	  <meiHead>
+		    <fileDesc>
+			      <titleStmt>
+				        <title/>
+			      </titleStmt>
+			      <pubStmt/>
+		    </fileDesc>
+	  </meiHead>
     <music>
         <body>
             <mdiv>
                 <score>
                     <scoreDef>
                         <staffGrp>
-                            <staffDef n="1" lines="5" clef.line="2" clef.shape="G" meter.count="4" meter.unit="4" key.pname="b"/>
-                            <staffDef n="2" lines="5" clef.line="4" clef.shape="F" meter.count="4" meter.unit="4" key.pname="b"/>
+                            <staffDef n="1" lines="5" clef.line="2" clef.shape="G" meter.count="4" meter.unit="4"
+                               key.pname="b"/>
+                            <staffDef n="2" lines="5" clef.line="4" clef.shape="F" meter.count="4" meter.unit="4"
+                               key.pname="b"/>
                         </staffGrp>
                     </scoreDef>
                     <section>

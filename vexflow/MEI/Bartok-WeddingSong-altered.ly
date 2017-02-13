@@ -24,7 +24,7 @@ mdivA_staffA = {
 
 mdivA_staffB = {
   \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { d''8[-\tenuto d''8-\tenuto d''8-\tenuto d''8]-\tenuto \stemDown c''8[-\tenuto b'8-\tenuto a'8-\tenuto b'8]-\tenuto } >> %1
-  << { \stemUp c''8[-\tenuto b'8-\tenuto a'8-\tenuto d'8~] \stemNeutral d'4 a'8-\staccato r8 } >> %2
+  << { \stemUp c''8[-\tenuto b'8-\tenuto a'8-\tenuto d'8~]-\> \stemNeutral d'4 a'8\!-\staccato r8 } >> %2
   \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { g'4. d'8 e'8 f'2.. } >> %3
   << { c''4. b'8 a'8 d'4.~ d'4 a'8-\staccato r8 } >> %4
   { \break }

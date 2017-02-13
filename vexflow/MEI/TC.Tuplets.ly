@@ -16,7 +16,7 @@ mdivA_staffA = {
 }
 
 mdivA_staffB = {
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \stemNeutral a'4 g'8[ \stemUp b'8] } >> %1
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \stemNeutral a'4-\f g'8[ \stemUp b'8] } >> %1
   \set Score.currentBarNumber = #1
   << { \tuplet / { d'4 f'4 f'4 } } >> %1
   << { \once \tupletDown \tuplet / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } \once \tupletUp \tuplet / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } } >> %2

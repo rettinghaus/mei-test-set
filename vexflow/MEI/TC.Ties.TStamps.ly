@@ -10,7 +10,7 @@
 mdivA_staffA = {
   \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { c'4 c'2 c'2 c'2 f'4 } >> %1
   << { f'4 f'2 f'2 f'2 b'4 } >> %2
-  << { b'4 b'2 b'2 b'2 c''4 } >> %3
+  << { b'4-~ b'2-~ b'2-~ b'2 c''4-~ } >> %3
 }
 
 

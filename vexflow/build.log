@@ -45,6 +45,9 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.VexClef.07.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.SystemBreak.03.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.SystemBreak.03.ly:17:22: Warnung: slur kann nicht beendet werden
+  << { c'1) } \\ { a1
+                     ) } >> %5
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.One-measure.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -221,6 +224,9 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.StaveVoices.03.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Hairpins.ly« wird verarbeitet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Hairpins.ly:12:12: Warnung: unbegrenzt: »crescendo«
+  << { e'8[
+           _\< a8 c'8 f'8] e'4 d'4 } >> %2
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Ties.Staves.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -258,4 +264,13 @@ Kompilation erfolgreich beendet
       gf \major \once \numericTimeSignature \time 4/4 \mdivA_staffA }
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly"
 »vexflow/MEI/TC.Dynamics.ly« wird verarbeitet
-Kompilation erfolgreich beendet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Dynamics.ly:11:204: Fehler: Ungültige Fluchtsequenz: »\ffffff«
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { c'4-\pp d'4-\mf b4-\fff c'4-
+                                                                                                                                                                                                           \ffffff } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Dynamics.ly:12:12: Fehler: Ungültige Fluchtsequenz: »\fffffffffffffffffffffp«
+  << { c'4^
+           \fffffffffffffffffffffp d'4^\sfz b4^\mf c'4^\ppo } >> %2
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Dynamics.ly:12:56: Fehler: Ungültige Fluchtsequenz: »\ppo«
+  << { c'4^\fffffffffffffffffffffp d'4^\sfz b4^\mf c'4^
+                                                       \ppo } >> %2
+schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.Dynamics.ly"

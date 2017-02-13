@@ -57,7 +57,7 @@ mdivA_staffA = {
   << { \stemDown c''8[ c''8] e''8[ c''8] e''8[ g''8] } >> %17
   << { \stemDown e''8[ c''8] e''8[ g''8] e''8[ c''8] } >> %18
   << { \stemUp c''8[ g'8] \stemDown c''8[ \stemDown c''16 \stemDown c''16] \stemDown c''8[ \stemDown c''8] } >> %19
-  << { \stemDown c''2 r4 } >> \bar "||" %20
+  << { \stemDown c''2 r4_\markup {\abs-fontsize #9.4 \bold {Fine}}  } >> \bar "||" %20
   << { \stemDown e''4. f''8 g''4 } >> %21
   { \break }
   << { \stemDown g''8[ a''8] g''8[ f''8] e''4 } >> %22
@@ -91,7 +91,7 @@ mdivA_staffB = {
   << { \stemUp g'8[ g'8] c''8[ g'8] \stemDown c''8[ \stemDown e''8] } >> %17
   << { \stemUp c''8[ g'8] \stemDown c''8[ \stemDown e''8] \stemUp c''8[ \stemUp g'8] } >> %18
   << { \stemUp g'8[ e'8] g'8[ g'16 g'16] g'8[ g'8] } >> %19
-  << { \stemUp e'2 r4 } >> \bar "||" %20
+  << { \stemUp e'2 r4_\markup {\abs-fontsize #9.4 \bold {Fine}}  } >> \bar "||" %20
   << { \stemDown c''4. d''8 e''4 } >> %21
   { \break }
   << { \stemDown e''8[ f''8] e''8[ d''8] c''4 } >> %22
@@ -125,7 +125,7 @@ mdivA_staffC = {
   << { \stemUp c'8[ c'16 c'16] c'8[ c'8] c'8[ c'8] } >> %17
   << { \stemUp c'4 c'4 c'4 } >> %18
   << { \stemUp c'8[ c'16 c'16] c'8[ c'8] c'8[ c'8] } >> %19
-  << { \stemUp c'2 r4 } >> \bar "||" %20
+  << { \stemUp c'2 r4_\markup {\abs-fontsize #9.4 \bold {Fine}}  } >> \bar "||" %20
   << { \stemUp g'4. g'8 \stemDown c''4 } >> %21
   { \break }
   << { \stemDown c''4 c''4 \stemUp g'4 } >> %22
@@ -159,7 +159,7 @@ mdivA_staffD = {
   << { \stemUp c8[ c16 c16] c8[ c8] c8[ c8] } >> %17
   << { \stemUp c4 c4 c4 } >> %18
   << { \stemUp c8[ c16 c16] c8[ c8] c8[ c8] } >> %19
-  << { \stemUp c2 r4 } >> \bar "||" %20
+  << { \stemUp c2 r4_\markup {\abs-fontsize #9.4 \bold {Fine}}  } >> \bar "||" %20
   << { \stemUp c2 r4 } >> %21
   { \break }
   << { \stemUp c2 r4 } >> %22
@@ -193,7 +193,7 @@ mdivA_staffE = {
   << { \stemUp < e' g' c'' >4 r4 r4 } >> %17
   << { \stemUp c'4 e'4 g'4 } >> %18
   << { \stemUp < e' g' c'' >4 r4 r4 } >> %19
-  << { \stemUp < e' g' c'' >2 r4 } >> \bar "||" %20
+  << { \stemUp < e' g' c'' >2 r4_\markup {\abs-fontsize #9.4 \bold {Fine}}  } >> \bar "||" %20
   << { \stemUp < e' g' >2. } >> %21
   { \break }
   << { \stemUp < e' c'' >2 < e' g' >4 } >> %22

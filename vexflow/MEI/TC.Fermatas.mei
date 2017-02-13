@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../odd/mei2vexflow.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="../odd/mei2vexflow.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<mei meiversion="2013" xmlns:xlink="http://www.w3.org/1999/xlink"
-	xmlns="http://www.music-encoding.org/ns/mei" xmlns:mei="http://www.music-encoding.org/ns/mei">
-	<meiHead>
-		<fileDesc>
-			<titleStmt>
-				<title>MeiToVexFlow Dynamics Test Case</title>
-			</titleStmt>
-			<pubStmt>
-				<respStmt>
-					<resp>Prepared by</resp>
-					<persName>Alexander Erhard</persName>
-				</respStmt>
-			</pubStmt>
-		</fileDesc>
-	</meiHead>
+<?xml-model href="../odd/mei2vexflow.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="../odd/mei2vexflow.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><mei xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns="http://www.music-encoding.org/ns/mei"
+     xmlns:mei="http://www.music-encoding.org/ns/mei"
+     meiversion="2013">
+	  <meiHead>
+		    <fileDesc>
+			      <titleStmt>
+				        <title>MeiToVexFlow Dynamics Test Case</title>
+			      </titleStmt>
+			      <pubStmt>
+				        <respStmt>
+					          <resp>Prepared by</resp>
+					          <persName>Alexander Erhard</persName>
+				        </respStmt>
+			      </pubStmt>
+		    </fileDesc>
+	  </meiHead>
     <music>
         <body>
             <mdiv>
@@ -89,7 +88,7 @@
                                     <rest dur="4" fermata="below"/>
                                 </layer>
                             </staff>
-                            <fermata startid="e09" place="above"/>
+                            <fermata startid="#e09" place="above"/>
                             <fermata tstamp="2" place="below"/>
                         </measure>
 

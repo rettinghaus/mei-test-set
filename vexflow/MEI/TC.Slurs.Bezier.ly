@@ -8,7 +8,9 @@
 }
 
 mdivA_staffA = {
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { a'8[ c'8 e'8 a'8] g'4 f'4 } >> %1
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { 
+\shape #'((0 . 5) (-5 . 15) (0 . 15) (0 . 0)) Slur 
+\shape #'((0 . 10) (-17.5 . 15) (0 . 15) (0 . 2.5)) Slur a'8[-( c'8 e'8 a'8]) g'4-( f'4) } >> %1
   << { e'8[ a8 c'8 f'8] e'4 d'4 } >> %2
   << { e'8[ a8 c'8 f'8] e'4 d'4 } >> %3
 }

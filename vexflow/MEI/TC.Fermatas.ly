@@ -13,7 +13,7 @@ mdivA_staffA = {
   << { < c''^\fermata d''_\fermata >1 < c'^\fermata d'_\fermata >1 } >> %3
   << { R4*4^\fermataMarkup } >> %4
   << { R4*4_\fermataMarkup } >> %5
-  << { c'4 d'4 r4^\fermata r4_\fermata } >> %6
+  << { c'4^\fermata d'4 r4^\fermata r4_\fermata } >> %6
   { \break }
 }
 

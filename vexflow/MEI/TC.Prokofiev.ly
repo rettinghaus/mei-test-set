@@ -26,9 +26,9 @@ mdivA_staffB = {
 }
 
 mdivA_staffC = {
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { c'16.[ c'64 c'64 c'8 c'8] c'8[ c'8 c'8] } >> %1
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { c'16.-~[ c'64-~ c'64 c'8 c'8] c'8[ c'8 c'8] } >> %1
   << { c'8[ c'8 c'8] c'8[ c'8 c'8] } >> %2
-  << { c'8[ c'8 c'8] c'8[ c'8 c'8~] } >> %3
+  << { c'8[ c'8 c'8] c'8[_\< c'8 c'8~]\! } >> %3
   << { c'8[ c'8 c'8~] c'8[ c'8 c'8~] } >> %4
 }
 
