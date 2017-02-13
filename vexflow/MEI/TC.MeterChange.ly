@@ -10,8 +10,7 @@
 mdivA_staffA = {
   \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { r4 r8 r4 r8 } >> %1
   << { r4 r8 r4 d'8 } >> %2
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   \once \numericTimeSignature \time 4/4 
-  << { f'4 d'8 g'4 ees'!8 } >> %3
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   << { f'4 d'8 g'4 ees'!8 } >> %3
   << { aes'!4 bes'!8 c''4 d''8 } >> %4
 }
 
@@ -22,16 +21,14 @@ mdivA_staffA_verseA = \lyricmode {
 mdivA_staffB = {
   \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { r8 d'8[ d'8~] d'8[ d'8 d'8~] } >> %1
   << { d'8[ d'8 d'8~] d'8[ d'8 d'8~] } >> %2
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   \once \numericTimeSignature \time 4/4 
-  << { d'8[ d'8 d'8~] d'8[ ees'!8 ees'!8] } >> %3
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   << { d'8[ d'8 d'8~] d'8[ ees'!8 ees'!8] } >> %3
   << { < aes'! ees'! >1 < ces''! aes'! e' >1 des''!8 } >> %4
 }
 
 mdivA_staffC = {
   \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { c'16.[ c'64 c'64 c'8 c'8] c'8[ c'8 c'8] } >> %1
   << { c'8[ c'8 c'8] c'8[ c'8 c'8] } >> %2
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 \key c \major   \once \numericTimeSignature \time 4/4 
-  << { c'8[ c'8 c'8] c'8[ c'8 c'8~] } >> %3
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 \key c \major   << { c'8[ c'8 c'8] c'8[ c'8 c'8~] } >> %3
   << { c'8[ c'8 c'8~] c'8[ c'8 c'8~] } >> %4
 }
 

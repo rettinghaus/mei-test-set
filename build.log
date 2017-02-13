@@ -271,9 +271,6 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/ties-slurs/ties-chords.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/ties-slurs/respelled.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/ties-slurs/respelled.ly:23:31: Warnung: mid-measure time signature without \partial
-  \once \numericTimeSignature 
-                              \time 4/4 
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/ties-slurs/ties-stems.ly« wird verarbeitet
 Kompilation erfolgreich beendet

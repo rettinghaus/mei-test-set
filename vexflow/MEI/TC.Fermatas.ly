@@ -14,6 +14,7 @@ mdivA_staffA = {
   << { R4*4^\fermataMarkup } >> %4
   << { R4*4_\fermataMarkup } >> %5
   << { c'4 d'4 r4^\fermata r4_\fermata } >> %6
+  { \break }
 }
 
 

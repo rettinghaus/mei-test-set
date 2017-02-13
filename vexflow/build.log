@@ -19,16 +19,11 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Slice.ly« wird verarbeitet
 Warnung: Volta-Klammer kann nicht beendet werden
 Warnung: Volta-Klammer kann nicht beendet werden
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Slice.ly:17:187: Warnung: mid-measure time signature without \partial
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   
-                                                                                                                                                                                          \time 3/4 
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.SystemBreak.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.StaffChange.01.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.StaffChange.01.ly:12:199: Warnung: mid-measure time signature without \partial
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \once \numericTimeSignature 
-                                                                                                                                                                                                      \time 4/4 
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
 Kompilation erfolgreich beendet
 »vexflow/MEI/VF.Stave.Tempo.ly« wird verarbeitet
 Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
@@ -83,9 +78,6 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.dir.01.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.StaffChange.03.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.StaffChange.03.ly:14:171: Warnung: mid-measure time signature without \partial
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 
-                                                                                                                                                                          \time 3/2 
 Kompilation erfolgreich beendet
 »vexflow/MEI/Demo.Hairpins.Ravel.M2.ly« wird verarbeitet
 /home/rettinghaus/github/mei-test-set/vexflow/MEI/Demo.Hairpins.Ravel.M2.ly:27:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "gf" gefunden
@@ -95,26 +87,20 @@ schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/Demo.Hairpins.Ravel.M2.ly"
 »vexflow/MEI/Demo.StaveConnectors.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/Bartok-WeddingSong.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:30:171: Warnung: mid-measure time signature without \partial
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 
-                                                                                                                                                                          \time 3/2 
 Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:36:199: Warnung: mid-measure time signature without \partial
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \once \numericTimeSignature 
-                                                                                                                                                                                                      \time 2/2 
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:23:10: Warnung: Notenhals passt nicht in Balken
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:21:10: Warnung: Notenhals passt nicht in Balken
   << { < 
          d'' d'-\accent >1[ < a' fis'!-\staccato >1] r4 r2 } >> %8
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:23:27: Warnung: Balken wurde hier begonnen
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:21:27: Warnung: Balken wurde hier begonnen
   << { < d'' d'-\accent >1
                           [ < a' fis'!-\staccato >1] r4 r2 } >> %8
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:23:31: Warnung: Notenhals passt nicht in Balken
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:21:31: Warnung: Notenhals passt nicht in Balken
   << { < d'' d'-\accent >1[ < 
                               a' fis'!-\staccato >1] r4 r2 } >> %8
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:23:27: Warnung: Balken wurde hier begonnen
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:21:27: Warnung: Balken wurde hier begonnen
   << { < d'' d'-\accent >1
                           [ < a' fis'!-\staccato >1] r4 r2 } >> %8
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:23:10: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong.ly:21:10: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
   << { < 
          d'' d'-\accent >1[ < a' fis'!-\staccato >1] r4 r2 } >> %8
 Kompilation erfolgreich beendet
@@ -232,6 +218,8 @@ Warnung: Volta-Klammer kann nicht beendet werden
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.VexClef.02.ly« wird verarbeitet
 Kompilation erfolgreich beendet
+»vexflow/MEI/TC.StaveVoices.03.ly« wird verarbeitet
+Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Hairpins.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Ties.Staves.ly« wird verarbeitet
@@ -243,26 +231,20 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Slurs.TStamps.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/Bartok-WeddingSong-altered.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:30:171: Warnung: mid-measure time signature without \partial
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 
-                                                                                                                                                                          \time 3/2 
 Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:36:199: Warnung: mid-measure time signature without \partial
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \once \numericTimeSignature 
-                                                                                                                                                                                                      \time 2/2 
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:23:10: Warnung: Notenhals passt nicht in Balken
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:21:10: Warnung: Notenhals passt nicht in Balken
   << { < 
          d'' d'-\accent >1[ < a' fis'!-\staccato >1] r4 r2 } >> %8
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:23:27: Warnung: Balken wurde hier begonnen
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:21:27: Warnung: Balken wurde hier begonnen
   << { < d'' d'-\accent >1
                           [ < a' fis'!-\staccato >1] r4 r2 } >> %8
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:23:31: Warnung: Notenhals passt nicht in Balken
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:21:31: Warnung: Notenhals passt nicht in Balken
   << { < d'' d'-\accent >1[ < 
                               a' fis'!-\staccato >1] r4 r2 } >> %8
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:23:27: Warnung: Balken wurde hier begonnen
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:21:27: Warnung: Balken wurde hier begonnen
   << { < d'' d'-\accent >1
                           [ < a' fis'!-\staccato >1] r4 r2 } >> %8
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:23:10: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Bartok-WeddingSong-altered.ly:21:10: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
   << { < 
          d'' d'-\accent >1[ < a' fis'!-\staccato >1] r4 r2 } >> %8
 Kompilation erfolgreich beendet

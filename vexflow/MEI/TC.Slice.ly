@@ -14,8 +14,7 @@ mdivA_staffA = {
   << { } >> %4
   << { } >> %5
   { \break }
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   \time 3/4 
-  << { } >> %6
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   << { } >> %6
   << { } >> %7
   << { } >> %8
   << { } >> %9
@@ -37,8 +36,7 @@ mdivA_staffB = {
   << >> %4
   << >> %5
   { \break }
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   \time 3/4 
-  << >> %6
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   << >> %6
   << >> %7
   << >> %8
   << >> %9
@@ -60,8 +58,7 @@ mdivA_staffC = {
   << >> %4
   << >> %5
   { \break }
-  \set Staff.clefGlyph = #"clefs.C" \set Staff.clefPosition = #0 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #0 \set Staff.middleCClefPosition = #0 \key c \major   \time 3/4 
-  << >> %6
+  \set Staff.clefGlyph = #"clefs.C" \set Staff.clefPosition = #0 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #0 \set Staff.middleCClefPosition = #0 \key c \major   << >> %6
   << >> %7
   << >> %8
   << >> %9
@@ -83,8 +80,7 @@ mdivA_staffD = {
   << >> %4
   << >> %5
   { \break }
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 \key c \major   \time 3/4 
-  << >> %6
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 \key c \major   << >> %6
   << >> %7
   << >> %8
   << >> %9
