@@ -20,7 +20,7 @@ do
 
   #-- add output to README.md
   echo "### [$fname](MEI/$fname)" >> vexflow/README.md
-  echo "![MEILER](${file%.mei}.preview.png)" >> vexflow/README.md
+  echo "![MEILER](MEI/${fname%.mei}.preview.png)" >> vexflow/README.md
 done
 rm -rf vexflow/MEI/*/*.midi
 echo see build.log for details
