@@ -6,6 +6,8 @@ Kompilation erfolgreich beendet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/articulations/stacc-up-and-down.ly« wird verarbeitet
 Kompilation erfolgreich beendet
+»MEI-test-set/MEI/articulations/fermatas.ly« wird verarbeitet
+Kompilation erfolgreich beendet
 »MEI-test-set/MEI/articulations/artic-with-slurs.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/articulations/ledger-lines.ly« wird verarbeitet
@@ -25,54 +27,30 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/grace-notes.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/fixed-slurs.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/fixed-slurs.ly:21:744: Warnung: Balken bereits vorhanden
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace d''8 e''4 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace {c''16[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) d''16]} e''8[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace f''8 g''8 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace a''8] e''8
-                                                                                                                                                                                                                                                     
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/fixed-slurs.ly:21:1863: Warnung: Balken bereits vorhanden
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace d''8 e''4 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace {c''16[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) d''16]} e''8[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace f''8 g''8 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace a''8] e''8[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace b''8 f''16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace e''8 a''16 \once \override 
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/over-bar.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/grace-notes/grace-note-slurs.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/grace-note-slurs.ly:21:736: Warnung: Balken bereits vorhanden
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace d''8 e''4 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace {c''16[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) d''16]} e''8[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace f''8 g''8 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace a''8] e''8
-                                                                                                                                                                                                                                                             
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/grace-note-slurs.ly:21:1845: Warnung: Balken bereits vorhanden
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace d''8 e''4 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace {c''16[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) d''16]} e''8[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace f''8 g''8 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace a''8] e''8[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace b''8 f''16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \grace e''8 a''16 \once \override NoteHead
+Programmierfehler: Moment is not increasing.  Aborting interpretation.
+Fortsetzung, die Daumen drücken
+Programmierfehler: Moment is not increasing.  Aborting interpretation.
+Fortsetzung, die Daumen drücken
+Programmierfehler: bounds of this piece aren't breakable.
+Fortsetzung, die Daumen drücken
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/artic-on-grace-notes.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/more-articulation.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/slur-placement.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/slur-placement.ly:22:154: Warnung: Keine funktionsfähige Anfangskonfiguration gefunden: Es kann evtl. keine optimale Balkenneigung gefunden werden
-  << { \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace g'8 \stemDown c''4. \stemDown d''!8
-                                                                                                                                                         [ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace a''16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp g''16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp f''16] \stemDown e''8[ \stemDown d''8 \stemDown c''8 \stemDown b'8] } >> %2
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/slur-placement.ly:23:153: Warnung: Keine funktionsfähige Anfangskonfiguration gefunden: Es kann evtl. keine optimale Balkenneigung gefunden werden
-  << { \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace g'8 \stemDown c''4. \stemDown d''8
-                                                                                                                                                        [ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace a''16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp g''16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp f''16] \stemDown e''8[ \stemDown d''8 \stemDown c''8 \stemDown b'8] } >> \bar "|." %3
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/dynamic-placement.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/two-parts-aligned.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/two-parts-aligned.ly:21:583: Warnung: Keine funktionsfähige Anfangskonfiguration gefunden: Es kann evtl. keine optimale Balkenneigung gefunden werden
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace g'16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) a'16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) b'16 \stemDown c''8[ \stemDown g'8 \stemDown d''8 \stemDown b'8] \stemDown d''4 \stemDown b''8
-                                                                                                                                                                                                                                                                                                                              
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/two-parts-aligned.ly:21:806: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace g'16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) a'16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) b'16 \stemDown c''8[ \stemDown g'8 \stemDown d''8 \stemDown b'8] \stemDown d''4 \stemDown b''8[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace a''16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp 
-                                                                                                                                                      
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/two-parts-aligned.ly:21:916: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace g'16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) a'16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) b'16 \stemDown c''8[ \stemDown g'8 \stemDown d''8 \stemDown b'8] \stemDown d''4 \stemDown b''8[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace a''16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp g''16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp 
-                                        
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/grace-notes/two-parts-aligned.ly:21:1026: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace g'16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) a'16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) b'16 \stemDown c''8[ \stemDown g'8 \stemDown d''8 \stemDown b'8] \stemDown d''4 \stemDown b''8[ \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp \grace a''16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp g''16 \once \override NoteHead.extra-offset = #'(0 . 0) \once \override Stem.extra-offset = #'(0 . 0) \stemUp f''16 \once \override NoteHead.extra-offs
-Warnung: Kasten mit negativen Ausmaßen wird nicht gezeichnet, 0.13 mal -0.23.
-Warnung: Kasten mit negativen Ausmaßen wird nicht gezeichnet, 0.13 mal -0.24.
-Warnung: Kasten mit negativen Ausmaßen wird nicht gezeichnet, 0.13 mal -0.24.
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/grace-notes/two-voice-grace-notes.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/alignment.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/tuplets/nested-tuplets.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/ratios-no-literal.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -99,14 +77,17 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/tuplets-two-parts.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/triplets.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/triplets.ly:22:3: Warnung: mid-measure time signature without \partial
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/triplets.ly:21:3: Warnung: mid-measure time signature without \partial
   
   \time 6/8 
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/triplets.ly:24:3: Warnung: mid-measure time signature without \partial
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/tuplets/triplets.ly:23:3: Warnung: mid-measure time signature without \partial
   
   \time 2/4 
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/beamed-accentuation.ly« wird verarbeitet
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/tuplets/tuplet-brackets-2.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -163,34 +144,36 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/arpeggios/broken-arpegg.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/arpeggios/over-staves.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:236: Warnung: unbegrenzter Bindebogen
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8-~[ a8-~ \stemDown c'8-~] } \\ { \stemUp g,8
-                                                                                                                                                                                                                                           -~[ b,8-~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:243: Warnung: unbegrenzter Bindebogen
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8-~[ a8-~ \stemDown c'8-~] } \\ { \stemUp g,8-~[ b,8
-                                                                                                                                                                                                                                                  -~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:192: Warnung: unbegrenzter Bindebogen
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8
-                                                                                                                                                                                               -~[ a8-~ \stemDown c'8-~] } \\ { \stemUp g,8-~[ b,8-~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:198: Warnung: unbegrenzter Bindebogen
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8-~[ a8
-                                                                                                                                                                                                     -~ \stemDown c'8-~] } \\ { \stemUp g,8-~[ b,8-~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:214: Warnung: unbegrenzter Bindebogen
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8-~[ a8-~ \stemDown c'8
-                                                                                                                                                                                                                     -~] } \\ { \stemUp g,8-~[ b,8-~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:41: Warnung: unbegrenzter Bindebogen
-  << { \stemDown c'2. } \\ { \stemUp e'8
-                                        -~[ g'8-~ b'8-~] < e' g' b' >4. } >> \bar "|." %2
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:22:48: Warnung: unbegrenzter Bindebogen
-  << { \stemDown c'2. } \\ { \stemUp e'8-~[ g'8
-                                               -~ b'8-~] < e' g' b' >4. } >> \bar "|." %2
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:26:194: Warnung: Keine funktionsfähige Anfangskonfiguration gefunden: Es kann evtl. keine optimale Balkenneigung gefunden werden
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \stemUp f8-~
-                                                                                                                                                                                                 [ a8-~ \stemDown c'8-~] } \\ { \stemUp g,8-~[ b,8-~ d8-~] \stemDown < g,-~ b,-~ d-~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:25:317: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \tweak Stem.direction #UP f8[-~ \tweak Stem.direction #UP a8-~ \tweak Stem.direction #DOWN c'8]-~ } \\ { \tweak Stem.direction #UP g,8[
+                                                                                                                                                                                                                                                                                                                            -~ \tweak Stem.direction #UP b,8-~ \tweak Stem.direction #UP d8]-~ < \tweak Stem.direction #DOWN g,-~ b,-~ d-~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:25:349: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \tweak Stem.direction #UP f8[-~ \tweak Stem.direction #UP a8-~ \tweak Stem.direction #DOWN c'8]-~ } \\ { \tweak Stem.direction #UP g,8[-~ \tweak Stem.direction #UP b,8
+                                                                                                                                                                                                                                                                                                                                                            -~ \tweak Stem.direction #UP d8]-~ < \tweak Stem.direction #DOWN g,-~ b,-~ d-~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:25:211: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \tweak Stem.direction #UP f8[
+                                                                                                                                                                                                                  -~ \tweak Stem.direction #UP a8-~ \tweak Stem.direction #DOWN c'8]-~ } \\ { \tweak Stem.direction #UP g,8[-~ \tweak Stem.direction #UP b,8-~ \tweak Stem.direction #UP d8]-~ < \tweak Stem.direction #DOWN g,-~ b,-~ d-~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:25:242: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \tweak Stem.direction #UP f8[-~ \tweak Stem.direction #UP a8
+                                                                                                                                                                                                                                                 -~ \tweak Stem.direction #DOWN c'8]-~ } \\ { \tweak Stem.direction #UP g,8[-~ \tweak Stem.direction #UP b,8-~ \tweak Stem.direction #UP d8]-~ < \tweak Stem.direction #DOWN g,-~ b,-~ d-~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:25:277: Warnung: unbegrenzter Bindebogen
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \tweak Stem.direction #UP f8[-~ \tweak Stem.direction #UP a8-~ \tweak Stem.direction #DOWN c'8]
+                                                                                                                                                                                                                                                                                    -~ } \\ { \tweak Stem.direction #UP g,8[-~ \tweak Stem.direction #UP b,8-~ \tweak Stem.direction #UP d8]-~ < \tweak Stem.direction #DOWN g,-~ b,-~ d-~ >4. } >> %1
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:21:78: Warnung: unbegrenzter Bindebogen
+  << { \tweak Stem.direction #DOWN c'2. } \\ { \tweak Stem.direction #UP e'8[
+                                                                             -~ \tweak Stem.direction #UP g'8-~ \tweak Stem.direction #UP b'8]-~ < \tweak Stem.direction #UP e' g' b' >4. } >> \bar "|." %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:21:110: Warnung: unbegrenzter Bindebogen
+  << { \tweak Stem.direction #DOWN c'2. } \\ { \tweak Stem.direction #UP e'8[-~ \tweak Stem.direction #UP g'8
+                                                                                                             -~ \tweak Stem.direction #UP b'8]-~ < \tweak Stem.direction #UP e' g' b' >4. } >> \bar "|." %2
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/arpeggios/over-staves.ly:25:210: Warnung: Keine funktionsfähige Anfangskonfiguration gefunden: Es kann evtl. keine optimale Balkenneigung gefunden werden
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { s8 s8 s8 \tweak Stem.direction #UP f8
+                                                                                                                                                                                                                 [-~ \tweak Stem.direction #UP a8-~ \tweak Stem.direction #DOWN c'8]-~ } \\ { \tweak Stem.direction #UP g,8[-~ \tweak Stem.direction #UP b,8-~ \tweak Stem.direction #UP d8]-~ < \tweak Stem.direction #DOWN g,-~ b,-~ d-~ >4. } >> %1
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/arpeggios/dynamics.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/arpeggios/vib-changes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/additional-tests/beam-test.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/chords/cluster-chords-2.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -244,9 +227,19 @@ Kompilation erfolgreich beendet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/chords/cluster-chords-3.ly« wird verarbeitet
 Kompilation erfolgreich beendet
+»MEI-test-set/MEI/gliss/more-gliss.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/gliss/short-gliss.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/gliss/gliss-precision.ly« wird verarbeitet
+Kompilation erfolgreich beendet
 »MEI-test-set/MEI/gliss/interim-pitches.ly« wird verarbeitet
 Kompilation erfolgreich beendet
-»MEI-test-set/MEI/scores-and-layout/Untitled.ly« wird verarbeitet
+»MEI-test-set/MEI/gliss/glissando.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/scores-and-layout/key-signature-changes.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/scores-and-layout/time-signature-changes.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/scores-and-layout/key-and-time-signature-changes.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -300,8 +293,6 @@ Kompilation erfolgreich beendet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/accidentals/quarter-tones.ly« wird verarbeitet
 Kompilation erfolgreich beendet
-»MEI-test-set/MEI/accidentals/key-sig.ly« wird verarbeitet
-Kompilation erfolgreich beendet
 »MEI-test-set/MEI/accidentals/cancellation-repeated-notes.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/accidentals/unconventional-key-sig.ly« wird verarbeitet
@@ -331,8 +322,6 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/accidentals/two-stem-chords.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/accidentals/alto-clef.ly« wird verarbeitet
-Kompilation erfolgreich beendet
-»MEI-test-set/MEI/accidentals/key-change.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/2-4.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -373,18 +362,20 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/polymeter.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/structural-beaming.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:28:3: Warnung: mid-measure time signature without \partial
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:29:3: Warnung: mid-measure time signature without \partial
   
   \time 6/8 
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:31:31: Warnung: mid-measure time signature without \partial
-  \once \numericTimeSignature 
-                              \time 4/4 
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:33:3: Warnung: mid-measure time signature without \partial
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:32:3: Warnung: mid-measure time signature without \partial
+  
+  \tweak TimeSignature.style #'numbered \time 4/4 
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:35:3: Warnung: mid-measure time signature without \partial
   
   \time 6/8 
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:36:31: Warnung: mid-measure time signature without \partial
-  \once \numericTimeSignature 
-                              \time 4/4 
+Warnung: erzwungener Umbruch war durch anderes Ereignis aufgehoben, sollten Taktüberprüfungen vorgenommen werden?
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/structural-beaming.ly:38:3: Warnung: mid-measure time signature without \partial
+  
+  \tweak TimeSignature.style #'numbered \time 4/4 
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/more-beaming-2.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -425,20 +416,16 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/syncopation.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/beaming-over-beats.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/beaming-over-beats.ly:22:3: Warnung: mid-measure time signature without \partial
-  
-  \time 18/16 
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/beaming-over-beats.ly:25:3: Warnung: mid-measure time signature without \partial
-  
-  \time 2/4 
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/beaming-over-beats.ly:28:3: Warnung: mid-measure time signature without \partial
-  
-  \time 2/8 
-/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/beaming-over-beats.ly:30:3: Warnung: mid-measure time signature without \partial
-  
-  \time 3/4 
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/beaming-over-beats.ly:27:26: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
+  << { \tuplet 5/4 { r8[ 
+                         \tweak Stem.direction #UP f'8 r8 \tweak Stem.direction #UP g'8 r8] } } >> %5
+/home/rettinghaus/github/mei-test-set/MEI-test-set/MEI/meter/beaming-over-beats.ly:27:59: Warnung: Eigenartige Notenhalslänge; auf enge Balken überprüfen
+  << { \tuplet 5/4 { r8[ \tweak Stem.direction #UP f'8 r8 
+                                                          \tweak Stem.direction #UP g'8 r8] } } >> %5
 Programmierfehler: No viable beam quanting found.  Using unquanted y value.
 Fortsetzung, die Daumen drücken
+Warnung: Kasten mit negativen Ausmaßen wird nicht gezeichnet, 0.13 mal -0.24.
+Warnung: Kasten mit negativen Ausmaßen wird nicht gezeichnet, 0.13 mal -0.24.
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/meter/compound-beats.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -449,6 +436,8 @@ Kompilation erfolgreich beendet
 »MEI-test-set/MEI/staves/three-line-staff.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/staves/two-line-staff.ly« wird verarbeitet
+Kompilation erfolgreich beendet
+»MEI-test-set/MEI/beams-and-stems/nested-beams.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »MEI-test-set/MEI/beams-and-stems/two-stem-directions.ly« wird verarbeitet
 Kompilation erfolgreich beendet
