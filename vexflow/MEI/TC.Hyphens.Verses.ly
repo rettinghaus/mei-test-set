@@ -1,10 +1,9 @@
-\version "2.18.2"
-#(ly:set-option 'point-and-click #f)
+\version "2.19.58"
 % automatically converted by mei2ly.xsl
 
 \header {
- copyright = \markup { © Prepared byAlexander Erhard,   }
- tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
+  copyright = \markup { © Prepared byAlexander Erhard,   }
+  tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
 }
 
 \paper {
@@ -24,12 +23,8 @@ first versethirdfourthfifthsixthseeighth second ver seventh
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
  \new Staff = "staff 1" {
- 
-      
-      \override DynamicText.direction = #UP
-      \override DynamicLineSpanner.direction = #UP
-    \autoBeamOff \set tieWaitForNote = ##t
- \key c \major \once \override Staff.TimeSignature.transparent = ##t \once \numericTimeSignature \time 4/4 \set Score.currentBarNumber = #2 \mdivA_staffA }
+ \override DynamicText.direction = #UP \override DynamicLineSpanner.direction = #UP \autoBeamOff \set tieWaitForNote = ##t
+ \key c \major \tweak TimeSignature.transparent ##t \tweak TimeSignature.style #'numbered \time 4/4 \set Score.currentBarNumber = #2 \mdivA_staffA }
   \addlyrics { \set ignoreMelismata = ##t \mdivA_staffA_verseA }
 >>
 >>

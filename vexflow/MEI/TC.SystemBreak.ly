@@ -1,12 +1,12 @@
-\version "2.18.2"
-#(ly:set-option 'point-and-click #f)
+\version "2.19.58"
 % automatically converted by mei2ly.xsl
 
 \header {
- copyright = \markup { © Prepared by:Raffaele VigliantiZoltan Komives,   }
- tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
+  copyright = \markup { © Prepared by:Raffaele VigliantiZoltan Komives,   }
+  tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
 
-  % Raffaele VigliantiManually encoded from VexFlow tests2013-07-09
+  % Revision Description
+  % 1. Raffaele VigliantiManually encoded from VexFlow tests2013-07-09
 }
 
 mdivA_staffA = {
@@ -32,7 +32,7 @@ mdivA_staffA = {
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
  \new Staff = "staff 1" {
  \autoBeamOff \set tieWaitForNote = ##t
- \once \numericTimeSignature \time 4/4 \mdivA_staffA }
+ \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
 >>
 >>
 \layout {

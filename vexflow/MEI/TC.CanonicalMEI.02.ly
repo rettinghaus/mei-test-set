@@ -1,10 +1,9 @@
-\version "2.18.2"
-#(ly:set-option 'point-and-click #f)
+\version "2.19.58"
 % automatically converted by mei2ly.xsl
 
 \header {
- copyright = \markup { © ,   }
- tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
+  copyright = \markup { © ,   }
+  tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
   title = ""
 }
 
@@ -32,8 +31,8 @@ mdivA_staffE = {
 }
 
 mdivA_staffG = {
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { c2 c2 c2 c2 \tag #'Source-A { \once \override NoteHead.color = #(rgb-color 1 0 0) \once \override Stem.color = #(rgb-color 1 0 0) c'2 } } >> %1
-  << { c2 \tag #'Source-A { \once \override NoteHead.color = #(rgb-color 1 0 0) \once \override Stem.color = #(rgb-color 1 0 0) c'2 } c2 c2 c\longa } >> \bar "|." %2
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { c2 c2 c2 c2 \tag #'Source-A { \tweak color #(rgb-color 1 0 0) \tweak Stem.color #(rgb-color 1 0 0) c'2 } } >> %1
+  << { c2 \tag #'Source-A { \tweak color #(rgb-color 1 0 0) \tweak Stem.color #(rgb-color 1 0 0) c'2 } c2 c2 c\longa } >> \bar "|." %2
 }
 
 

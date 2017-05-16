@@ -45,16 +45,16 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.VexClef.07.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.SystemBreak.03.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.SystemBreak.03.ly:17:22: Warnung: slur kann nicht beendet werden
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.SystemBreak.03.ly:16:22: Warnung: slur kann nicht beendet werden
   << { c'1) } \\ { a1
                      ) } >> %5
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.One-measure.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.KeySpec.03.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.KeySpec.03.ly:23:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "cf" gefunden
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.KeySpec.03.ly:22:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "cf" gefunden
  \key 
-      cf \major \once \numericTimeSignature \time 4/4 \mdivA_staffA }
+      cf \major \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.KeySpec.03.ly"
 »vexflow/MEI/TC.id2tstamp.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -83,9 +83,9 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.StaffChange.03.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/Demo.Hairpins.Ravel.M2.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Demo.Hairpins.Ravel.M2.ly:27:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "gf" gefunden
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Demo.Hairpins.Ravel.M2.ly:26:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "gf" gefunden
  \key 
-      gf \major \once \numericTimeSignature \time 4/4 \mdivA_staffA }
+      gf \major \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/Demo.Hairpins.Ravel.M2.ly"
 »vexflow/MEI/Demo.StaveConnectors.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -114,60 +114,69 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.StaffChange.02.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Tuplets.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:11:184: Fehler: syntax error, unexpected '/', expecting \header
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:10:184: Fehler: syntax error, unexpected '/', expecting \header
   \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \tuplet 
-                                                                                                                                                                                       / { g'8 a'8 \stemUp b'8 } \tuplet / { \stemNeutral g'8 a'8 b'8 } } >> %1
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:11:218: Fehler: syntax error, unexpected '/', expecting \header
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \tuplet / { g'8 a'8 \stemUp b'8 } \tuplet 
-                                                                                                                                                                                                                         / { \stemNeutral g'8 a'8 b'8 } } >> %1
+                                                                                                                                                                                       / { g'8 a'8 \tweak Stem.direction #UP b'8 } \tuplet / { g'8 a'8 \tweak Stem.direction #UP b'8 } } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:10:236: Fehler: syntax error, unexpected '/', expecting \header
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \tuplet / { g'8 a'8 \tweak Stem.direction #UP b'8 } \tuplet 
+                                                                                                                                                                                                                                           / { g'8 a'8 \tweak Stem.direction #UP b'8 } } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:13:16: Fehler: syntax error, unexpected '/', expecting \header
+  << { \tuplet 
+               / { d'8 e'8[ f'8] } g'8[ g'8] } >> %2
 /home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:14:16: Fehler: syntax error, unexpected '/', expecting \header
   << { \tuplet 
-               / { \stemNeutral d'8 e'8[ f'8] } g'8[ g'8] } >> %2
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:15:16: Fehler: syntax error, unexpected '/', expecting \header
-  << { \tuplet 
                / { f'4 d'8 } \tuplet / { g'4 e'8 } } >> %3
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:15:38: Fehler: syntax error, unexpected '/', expecting \header
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:14:38: Fehler: syntax error, unexpected '/', expecting \header
   << { \tuplet / { f'4 d'8 } \tuplet 
                                      / { g'4 e'8 } } >> %3
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:21:16: Fehler: syntax error, unexpected '/', expecting \header
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:20:16: Fehler: syntax error, unexpected '/', expecting \header
   << { \tuplet 
                / { d'4 f'4 f'4 } } >> %1
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:22:34: Fehler: syntax error, unexpected '/', expecting \header
-  << { \once \tupletDown \tuplet 
-                                 / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } \once \tupletUp \tuplet / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } } >> %2
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:22:102: Fehler: syntax error, unexpected '/', expecting \header
-  << { \once \tupletDown \tuplet / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } \once \tupletUp \tuplet 
-                                                                                                     / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } } >> %2
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:23:16: Fehler: syntax error, unexpected '/', expecting \header
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:21:53: Fehler: syntax error, unexpected '/', expecting \header
+  << { \tweak TupletBracket.direction #DOWN \tuplet 
+                                                    / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } \tweak TupletBracket.direction #UP \tuplet / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } } >> %2
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:21:140: Fehler: syntax error, unexpected '/', expecting \header
+  << { \tweak TupletBracket.direction #DOWN \tuplet / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } \tweak TupletBracket.direction #UP \tuplet 
+                                                                                                                                           / { < a' d'' >1[ < a' d'' >1 < a' d'' >1] } } >> %2
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:22:16: Fehler: syntax error, unexpected '/', expecting \header
   << { \tuplet 
                / { d'8[ d'8 d'8] } \tuplet / { d'8[ e'8 e'8] } } >> %3
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:23:44: Fehler: syntax error, unexpected '/', expecting \header
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:22:44: Fehler: syntax error, unexpected '/', expecting \header
   << { \tuplet / { d'8[ d'8 d'8] } \tuplet 
                                            / { d'8[ e'8 e'8] } } >> %3
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:29:71: Fehler: syntax error, unexpected '/', expecting \header
-  << { \once \override TupletBracket.bracket-visibility = ##f \tuplet 
-                                                                      / { < d' f' >1 e'8[ f'8] } \tuplet / { g'8[ a'8 \stemUp b'8] } } >> %1
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:29:106: Fehler: syntax error, unexpected '/', expecting \header
-  << { \once \override TupletBracket.bracket-visibility = ##f \tuplet / { < d' f' >1 e'8[ f'8] } \tuplet 
-                                                                                                         / { g'8[ a'8 \stemUp b'8] } } >> %1
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:35:10: Fehler: Fehler gefunden, musikalischer Ausdruck wird ignoriert
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:28:60: Fehler: syntax error, unexpected '/', expecting \header
+  << { \tweak TupletBracket.bracket-visibility ##f \tuplet 
+                                                           / { < d' f' >1 e'8[ f'8] } \tuplet / { g'8[ a'8 \tweak Stem.direction #UP b'8] } } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:28:95: Fehler: syntax error, unexpected '/', expecting \header
+  << { \tweak TupletBracket.bracket-visibility ##f \tuplet / { < d' f' >1 e'8[ f'8] } \tuplet 
+                                                                                              / { g'8[ a'8 \tweak Stem.direction #UP b'8] } } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Tuplets.ly:34:10: Fehler: Fehler gefunden, musikalischer Ausdruck wird ignoriert
 \score { 
          <<
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.Tuplets.ly"
 »vexflow/MEI/Demo.BachCPrelude.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Slurs.Bezier.ly« wird verarbeitet
-Kompilation erfolgreich beendet
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Slurs.Bezier.ly:12:1: Fehler: Ungültiger Grob-Eigenschaftspfad (Slura control-points)
+
+\shape #'((0 . 10) (-17.5 . 15) (0 . 15) (0 . 2.5)) Slura'8[-(-( c'8 e'8 a'8]) g'4-( f'4)) } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Slurs.Bezier.ly:12:58: Fehler: syntax error, unexpected '''
+\shape #'((0 . 10) (-17.5 . 15) (0 . 15) (0 . 2.5)) Slura
+                                                         '8[-(-( c'8 e'8 a'8]) g'4-( f'4)) } >> %1
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Slurs.Bezier.ly:18:10: Fehler: Fehler gefunden, musikalischer Ausdruck wird ignoriert
+\score { 
+         <<
+schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.Slurs.Bezier.ly"
 »vexflow/MEI/TC.SystemBreak.01.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Variants.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Variants.ly:12:51: Fehler: syntax error, unexpected '}'
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Variants.ly:11:51: Fehler: syntax error, unexpected '}'
   << { e'2 e2 \tag #' { a'2 a2 } \tag #' { b'2 b2 
                                                   } \tag #' { } } >> %2
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Variants.ly:12:63: Fehler: syntax error, unexpected '}', expecting \header
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Variants.ly:11:63: Fehler: syntax error, unexpected '}', expecting \header
   << { e'2 e2 \tag #' { a'2 a2 } \tag #' { b'2 b2 } \tag #' { 
                                                               } } >> %2
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Variants.ly:24:10: Fehler: Fehler gefunden, musikalischer Ausdruck wird ignoriert
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Variants.ly:23:10: Fehler: Fehler gefunden, musikalischer Ausdruck wird ignoriert
 \score { 
          <<
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.Variants.ly"
@@ -176,9 +185,9 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/MultiStaveSystemBreak.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.KeySpec.04.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.KeySpec.04.ly:23:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "cs" gefunden
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.KeySpec.04.ly:22:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "cs" gefunden
  \key 
-      cs \major \once \numericTimeSignature \time 4/4 \mdivA_staffA }
+      cs \major \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.KeySpec.04.ly"
 »vexflow/MEI/TC.StaveVoices.02.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -224,7 +233,7 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.StaveVoices.03.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Hairpins.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Hairpins.ly:12:12: Warnung: unbegrenzt: »crescendo«
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Hairpins.ly:11:12: Warnung: unbegrenzt: »crescendo«
   << { e'8[
            _\< a8 c'8 f'8] e'4 d'4 } >> %2
 Kompilation erfolgreich beendet
@@ -233,6 +242,14 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Ties.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Fermatas.ly« wird verarbeitet
+Programmierfehler: Object is not a markup.
+Fortsetzung, die Daumen drücken
+Programmierfehler: Object is not a markup.
+Fortsetzung, die Daumen drücken
+Warnung: MultiMeasureRestText has empty extent and non-empty stencil.
+Warnung: MultiMeasureRestText has empty extent and non-empty stencil.
+This object should be a markup: ()
+This object should be a markup: ()
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Slurs.TStamps.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -259,18 +276,9 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.VexClef.04.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly:31:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "gf" gefunden
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly:30:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "gf" gefunden
  \key 
-      gf \major \once \numericTimeSignature \time 4/4 \mdivA_staffA }
+      gf \major \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly"
 »vexflow/MEI/TC.Dynamics.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Dynamics.ly:11:204: Fehler: Ungültige Fluchtsequenz: »\ffffff«
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { c'4-\pp d'4-\mf b4-\fff c'4-
-                                                                                                                                                                                                           \ffffff } >> %1
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Dynamics.ly:12:12: Fehler: Ungültige Fluchtsequenz: »\fffffffffffffffffffffp«
-  << { c'4^
-           \fffffffffffffffffffffp d'4^\sfz b4^\mf c'4^\ppo } >> %2
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Dynamics.ly:12:56: Fehler: Ungültige Fluchtsequenz: »\ppo«
-  << { c'4^\fffffffffffffffffffffp d'4^\sfz b4^\mf c'4^
-                                                       \ppo } >> %2
-schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.Dynamics.ly"
+Kompilation erfolgreich beendet

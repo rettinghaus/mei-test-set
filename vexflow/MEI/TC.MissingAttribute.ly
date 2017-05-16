@@ -1,10 +1,9 @@
-\version "2.18.2"
-#(ly:set-option 'point-and-click #f)
+\version "2.19.58"
 % automatically converted by mei2ly.xsl
 
 \header {
- copyright = \markup { © ,   }
- tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
+  copyright = \markup { © ,   }
+  tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
 }
 
 mdivA_staffA = {
@@ -39,25 +38,17 @@ mdivA_staffD = {
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
   \override StaffGroup.BarLine.allow-span-bar = ##f
  \new Staff = "staff 1" \with { instrumentName = #"Supremus" } {
- 
-      
-      \override DynamicText.direction = #UP
-      \override DynamicLineSpanner.direction = #UP
-    \autoBeamOff \set tieWaitForNote = ##t
- \once \numericTimeSignature \time 4/4 \mdivA_staffA }
+ \override DynamicText.direction = #UP \override DynamicLineSpanner.direction = #UP \autoBeamOff \set tieWaitForNote = ##t
+ \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
  \new Staff = "staff 2" \with { instrumentName = #"Altus" } {
- 
-      
-      \override DynamicText.direction = #UP
-      \override DynamicLineSpanner.direction = #UP
-    \autoBeamOff \set tieWaitForNote = ##t
- \once \numericTimeSignature \time 4/4 \mdivA_staffB }
+ \override DynamicText.direction = #UP \override DynamicLineSpanner.direction = #UP \autoBeamOff \set tieWaitForNote = ##t
+ \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffB }
  \new Staff = "staff 3" \with { instrumentName = #"Tenor" } {
  \autoBeamOff \set tieWaitForNote = ##t
- \once \numericTimeSignature \time 4/4 \mdivA_staffC }
+ \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffC }
  \new Staff = "staff 4" \with { instrumentName = #"Bassus" } {
  \autoBeamOff \set tieWaitForNote = ##t
- \once \numericTimeSignature \time 4/4 \mdivA_staffD }
+ \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffD }
 >>
 >>
 >>

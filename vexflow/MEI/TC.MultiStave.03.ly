@@ -1,10 +1,9 @@
-\version "2.18.2"
-#(ly:set-option 'point-and-click #f)
+\version "2.19.58"
 % automatically converted by mei2ly.xsl
 
 \header {
- copyright = \markup { © ,   }
- tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
+  copyright = \markup { © ,   }
+  tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
 }
 
 mdivA_staffA = {
@@ -21,10 +20,10 @@ mdivA_staffB = {
  \set StaffGroup.systemStartDelimiter = #'SystemStartBracket
  \new Staff = "staff 1" {
  \autoBeamOff \set tieWaitForNote = ##t
- \once \numericTimeSignature \time 4/4 \mdivA_staffA }
+ \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
  \new Staff = "staff 2" {
  \autoBeamOff \set tieWaitForNote = ##t
- \once \numericTimeSignature \time 4/4 \mdivA_staffB }
+ \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffB }
 >>
 >>
 \layout {

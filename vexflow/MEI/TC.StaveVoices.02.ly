@@ -1,10 +1,9 @@
-\version "2.18.2"
-#(ly:set-option 'point-and-click #f)
+\version "2.19.58"
 % automatically converted by mei2ly.xsl
 
 \header {
- copyright = \markup { © ,   }
- tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
+  copyright = \markup { © ,   }
+  tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
 }
 
 mdivA_staffA = {
@@ -29,16 +28,16 @@ mdivA_staffD = {
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
  \new Staff = "staff 1" {
  \autoBeamOff \set tieWaitForNote = ##t
- \once \numericTimeSignature \time 2/2 \set Score.currentBarNumber = #3 \mdivA_staffA }
+ \tweak TimeSignature.style #'numbered \time 2/2 \set Score.currentBarNumber = #3 \mdivA_staffA }
  \new Staff = "staff 2" {
  \autoBeamOff \set tieWaitForNote = ##t
- \once \numericTimeSignature \time 2/2 \set Score.currentBarNumber = #3 \mdivA_staffB }
+ \tweak TimeSignature.style #'numbered \time 2/2 \set Score.currentBarNumber = #3 \mdivA_staffB }
  \new Staff = "staff 3" {
  \autoBeamOff \set tieWaitForNote = ##t
- \once \numericTimeSignature \time 2/2 \set Score.currentBarNumber = #3 \mdivA_staffC }
+ \tweak TimeSignature.style #'numbered \time 2/2 \set Score.currentBarNumber = #3 \mdivA_staffC }
  \new Staff = "staff 4" {
  \autoBeamOff \set tieWaitForNote = ##t
- \once \numericTimeSignature \time 2/2 \set Score.currentBarNumber = #3 \mdivA_staffD }
+ \tweak TimeSignature.style #'numbered \time 2/2 \set Score.currentBarNumber = #3 \mdivA_staffD }
 >>
 >>
 \layout {

@@ -1,10 +1,9 @@
-\version "2.18.2"
-#(ly:set-option 'point-and-click #f)
+\version "2.19.58"
 % automatically converted by mei2ly.xsl
 
 \header {
- copyright = \markup { © ,   }
- tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
+  copyright = \markup { © ,   }
+  tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
 }
 
 mdivA_staffA = {
@@ -26,7 +25,7 @@ mdivA_staffB = {
 }
 
 mdivA_staffC = {
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { c'16.-~[ c'64-~ c'64 c'8 c'8] c'8[ c'8 c'8] } >> %1
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { c'16.[-~ c'64-~ c'64 c'8 c'8] c'8[ c'8 c'8] } >> %1
   << { c'8[ c'8 c'8] c'8[ c'8 c'8] } >> %2
   \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 \key c \major   << { c'8[ c'8 c'8] c'8[_\< c'8 c'8~]\! } >> %3
   << { c'8[ c'8 c'8~] c'8[ c'8 c'8~] } >> %4
@@ -37,11 +36,7 @@ mdivA_staffC = {
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
  \new Staff = "staff 1" \with { instrumentName = #"Voice" } {
- 
-      
-      \override DynamicText.direction = #UP
-      \override DynamicLineSpanner.direction = #UP
-    \autoBeamOff \set tieWaitForNote = ##t
+ \override DynamicText.direction = #UP \override DynamicLineSpanner.direction = #UP \autoBeamOff \set tieWaitForNote = ##t
  \time 6/8 \mdivA_staffA }
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
