@@ -1,4 +1,4 @@
-\version "2.19.58"
+\version "2.19.55"
 % automatically converted by mei2ly.xsl
 
 \header {
@@ -38,28 +38,40 @@ mdivA_staffG = {
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBracket
  \new Staff = "staff 1" \with { instrumentName = #"Superius" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key c \major
-\time 4/2 \mdivA_staffA }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key c\major
+\time 4/2 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
  \new Staff = "staff 2" \with { instrumentName = #"Contratenor" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \time 4/2 \mdivA_staffB }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \time 4/2 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffB }
  \new Staff = "staff 3" \with { instrumentName = #"Contratenor_Reconstruction_A" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key c \major
-\time 4/2 \mdivA_staffC }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key c\major
+\time 4/2 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffC }
  \new Staff = "staff 4" \with { instrumentName = #"Contratenor_Reconstruction_B" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key c \major
-\time 4/2 \mdivA_staffD }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key c\major
+\time 4/2 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffD }
  \new Staff = "staff 5" \with { instrumentName = #"Tenor" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key c \major
-\time 4/2 \mdivA_staffE }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key c\major
+\time 4/2 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffE }
  \new Staff = "staff 7" \with { instrumentName = #"Bassus" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key c \major
-\time 4/2 \mdivA_staffG }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key c\major
+\time 4/2 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffG }
 >>
 >>
 >>

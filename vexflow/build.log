@@ -47,28 +47,28 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.SystemBreak.03.ly« wird verarbeitet
 /home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.SystemBreak.03.ly:16:22: Warnung: slur kann nicht beendet werden
   << { c'1) } \\ { a1
-                     ) } >> %5
+                     \=#'d1e53) } >> %5
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.One-measure.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.KeySpec.03.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.KeySpec.03.ly:22:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "cf" gefunden
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.KeySpec.03.ly:24:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "cf" gefunden
  \key 
-      cf \major \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
+      cf \major \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.KeySpec.03.ly"
 »vexflow/MEI/TC.id2tstamp.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.PageLayoutAutoWidths.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:14:60: Fehler: syntax error, unexpected STRING, expecting '.' or '=' or ','
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:14:60: Fehler: syntax error, unexpected SYMBOL, expecting '.' or '=' or ','
 						Transcoded 
                                                            from a MusicXML version 2.0 file on 2011-10-10 using the
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:18:57: Fehler: syntax error, unexpected STRING, expecting '='
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:18:57: Fehler: syntax error, unexpected SYMBOL, expecting '='
 						Cleaned 
                                                         up MEI file automatically using
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:23:57: Fehler: syntax error, unexpected STRING, expecting '='
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:23:57: Fehler: syntax error, unexpected SYMBOL, expecting '='
 						Cleaned 
                                                         up MEI file automatically using
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:27:1: Fehler: syntax error, unexpected '}', expecting UNSIGNED or SCM_IDENTIFIER or SCM_TOKEN or STRING
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayoutAutoWidths.ly:27:1: Fehler: syntax error, unexpected '}'
 
 }
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.PageLayoutAutoWidths.ly"
@@ -83,9 +83,9 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.StaffChange.03.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/Demo.Hairpins.Ravel.M2.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Demo.Hairpins.Ravel.M2.ly:26:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "gf" gefunden
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Demo.Hairpins.Ravel.M2.ly:28:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "gf" gefunden
  \key 
-      gf \major \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
+      gf \major \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/Demo.Hairpins.Ravel.M2.ly"
 »vexflow/MEI/Demo.StaveConnectors.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -159,10 +159,10 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Slurs.Bezier.ly« wird verarbeitet
 /home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Slurs.Bezier.ly:12:1: Fehler: Ungültiger Grob-Eigenschaftspfad (Slura control-points)
 
-\shape #'((0 . 10) (-17.5 . 15) (0 . 15) (0 . 2.5)) Slura'8[-(-( c'8 e'8 a'8]) g'4-( f'4)) } >> %1
+\shape #'((0 . 10) (-17.5 . 15) (0 . 15) (0 . 2.5)) Slura'8[-\=#'d1e34(-\=#'d1e36( c'8 e'8 a'8]\=#'d1e34) g'4-\=#'d1e35( f'4\=#'d1e35)\=#'d1e36) } >> %1
 /home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Slurs.Bezier.ly:12:58: Fehler: syntax error, unexpected '''
 \shape #'((0 . 10) (-17.5 . 15) (0 . 15) (0 . 2.5)) Slura
-                                                         '8[-(-( c'8 e'8 a'8]) g'4-( f'4)) } >> %1
+                                                         '8[-\=#'d1e34(-\=#'d1e36( c'8 e'8 a'8]\=#'d1e34) g'4-\=#'d1e35( f'4\=#'d1e35)\=#'d1e36) } >> %1
 /home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.Slurs.Bezier.ly:18:10: Fehler: Fehler gefunden, musikalischer Ausdruck wird ignoriert
 \score { 
          <<
@@ -185,9 +185,9 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/MultiStaveSystemBreak.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.KeySpec.04.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.KeySpec.04.ly:22:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "cs" gefunden
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.KeySpec.04.ly:24:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "cs" gefunden
  \key 
-      cs \major \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
+      cs \major \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.KeySpec.04.ly"
 »vexflow/MEI/TC.StaveVoices.02.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -196,16 +196,16 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Prokofiev.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.PageLayout.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:14:60: Fehler: syntax error, unexpected STRING, expecting '.' or '=' or ','
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:14:60: Fehler: syntax error, unexpected SYMBOL, expecting '.' or '=' or ','
 						Transcoded 
                                                            from a MusicXML version 2.0 file on 2011-10-10 using the
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:18:57: Fehler: syntax error, unexpected STRING, expecting '='
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:18:57: Fehler: syntax error, unexpected SYMBOL, expecting '='
 						Cleaned 
                                                         up MEI file automatically using
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:23:57: Fehler: syntax error, unexpected STRING, expecting '='
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:23:57: Fehler: syntax error, unexpected SYMBOL, expecting '='
 						Cleaned 
                                                         up MEI file automatically using
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:27:1: Fehler: syntax error, unexpected '}', expecting UNSIGNED or SCM_IDENTIFIER or SCM_TOKEN or STRING
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/TC.PageLayout.ly:27:1: Fehler: syntax error, unexpected '}'
 
 }
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/TC.PageLayout.ly"
@@ -242,14 +242,6 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Ties.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Fermatas.ly« wird verarbeitet
-Programmierfehler: Object is not a markup.
-Fortsetzung, die Daumen drücken
-Programmierfehler: Object is not a markup.
-Fortsetzung, die Daumen drücken
-Warnung: MultiMeasureRestText has empty extent and non-empty stencil.
-Warnung: MultiMeasureRestText has empty extent and non-empty stencil.
-This object should be a markup: ()
-This object should be a markup: ()
 Kompilation erfolgreich beendet
 »vexflow/MEI/TC.Slurs.TStamps.ly« wird verarbeitet
 Kompilation erfolgreich beendet
@@ -276,9 +268,9 @@ Kompilation erfolgreich beendet
 »vexflow/MEI/TC.VexClef.04.ly« wird verarbeitet
 Kompilation erfolgreich beendet
 »vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly« wird verarbeitet
-/home/rettinghaus/github/mei-test-set/vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly:30:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "gf" gefunden
+/home/rettinghaus/github/mei-test-set/vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly:32:7: Fehler: falscher Typ für Argument 1; pitch erwartet, "gf" gefunden
  \key 
-      gf \major \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
+      gf \major \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
 schwerer Fehler: gescheiterte Dateien: "vexflow/MEI/Demo.Hairpins.Ravel.M1-4.ly"
 »vexflow/MEI/TC.Dynamics.ly« wird verarbeitet
 Kompilation erfolgreich beendet

@@ -1,4 +1,4 @@
-\version "2.19.58"
+\version "2.19.55"
 % automatically converted by mei2ly.xsl
 
 \header {
@@ -22,11 +22,15 @@ mdivA_staffB = {
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
   \override StaffGroup.BarLine.allow-span-bar = ##f
  \new Staff = "staff 1" \with { instrumentName = #"First" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \time 4/2 \set Score.currentBarNumber = #2 \mdivA_staffA }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \time 4/2 \override Staff.BarLine.allow-span-bar = ##f \set Score.currentBarNumber = #2 \mdivA_staffA }
  \new Staff = "staff 2" \with { instrumentName = #"Second" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \time 4/2 \set Score.currentBarNumber = #2 \mdivA_staffB }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \time 4/2 \override Staff.BarLine.allow-span-bar = ##f \set Score.currentBarNumber = #2 \mdivA_staffB }
 >>
 >>
 >>

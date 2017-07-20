@@ -1,4 +1,4 @@
-\version "2.19.58"
+\version "2.19.55"
 % automatically converted by mei2ly.xsl
 
 \header {
@@ -40,11 +40,15 @@ mdivA_staffB = {
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
  \new Staff = "staff 1" \with { instrumentName = #"Violin I." } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key d \minor \time 2/4 \mdivA_staffA }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key d \minor \time 2/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
  \new Staff = "staff 2" \with { instrumentName = #"Violin II." } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key d \minor \time 2/4 \mdivA_staffB }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key d \minor \time 2/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffB }
 >>
 >>
 \layout {

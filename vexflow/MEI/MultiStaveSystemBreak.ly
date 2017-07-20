@@ -1,4 +1,4 @@
-\version "2.19.58"
+\version "2.19.55"
 % automatically converted by mei2ly.xsl
 
 \header {
@@ -43,23 +43,33 @@ mdivA_staffE = {
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBracket
  \new Staff = "staff 1" {
- \autoBeamOff \set tieWaitForNote = ##t
- \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \set Staff.keyAlterations = #`() \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
  \new Staff = "staff 2" {
- \autoBeamOff \set tieWaitForNote = ##t
- \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffB }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \set Staff.keyAlterations = #`() \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffB }
 >>
  \new Staff = "staff 3" {
- \autoBeamOff \set tieWaitForNote = ##t
- \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffC }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \set Staff.keyAlterations = #`() \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffC }
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
  \new Staff = "staff 4" {
- \autoBeamOff \set tieWaitForNote = ##t
- \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffD }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \set Staff.keyAlterations = #`() \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffD }
  \new Staff = "staff 5" {
- \autoBeamOff \set tieWaitForNote = ##t
- \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffE }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \set Staff.keyAlterations = #`() \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffE }
 >>
 >>
 >>

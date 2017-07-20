@@ -1,4 +1,4 @@
-\version "2.19.58"
+\version "2.19.55"
 % automatically converted by mei2ly.xsl
 
 \header {
@@ -24,7 +24,7 @@ mdivA_staffA = {
 
 mdivA_staffB = {
   \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { d''8[-\tenuto d''8-\tenuto d''8-\tenuto d''8]-\tenuto \tweak Stem.direction #DOWN c''8[-\tenuto \tweak Stem.direction #DOWN b'8-\tenuto \tweak Stem.direction #DOWN a'8-\tenuto \tweak Stem.direction #DOWN b'8]-\tenuto } >> %1
-  << { \tweak Stem.direction #UP c''8[-\tenuto \tweak Stem.direction #UP b'8-\tenuto \tweak Stem.direction #UP a'8-\tenuto \tweak Stem.direction #UP d'8~]-\>-( d'4 a'8\!)-\staccato r8 } >> %2
+  << { \tweak Stem.direction #UP c''8[-\tenuto \tweak Stem.direction #UP b'8-\tenuto \tweak Stem.direction #UP a'8-\tenuto \tweak Stem.direction #UP d'8~]-\>-\=#'d1e87( d'4 a'8\!\=#'d1e87)-\staccato r8 } >> %2
   \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { g'4. d'8 e'8 f'2.. } >> %3
   << { c''4. b'8 a'8 d'4.~( d'4 a'8)-\staccato r8 } >> %4
   { \break }
@@ -40,11 +40,15 @@ mdivA_staffB = {
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
  \new Staff = "staff 1" \with { instrumentName = #"Violin I." } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key d \minor \time 2/4 \mdivA_staffA }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key d \minor \time 2/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
  \new Staff = "staff 2" \with { instrumentName = #"Violin II." } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key d \minor \time 2/4 \mdivA_staffB }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key d \minor \time 2/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffB }
 >>
 >>
 \layout {

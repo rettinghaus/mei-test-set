@@ -1,4 +1,4 @@
-\version "2.19.58"
+\version "2.19.55"
 % automatically converted by mei2ly.xsl
 
 \header {
@@ -36,7 +36,7 @@
 
 mdivA_staffA = {
   \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   \time 3/4 
-  \tempo \markup {Allegro vivace} << { \tweak Stem.direction #DOWN c''8[ \tweak Stem.direction #DOWN c''16 \tweak Stem.direction #DOWN c''16] \tweak Stem.direction #DOWN c''8[ \tweak Stem.direction #DOWN c''8] \tweak Stem.direction #DOWN c''8[ \tweak Stem.direction #DOWN c''8] } >> %1
+  \once \override Score.MetronomeMark.direction = #UP \tempo \markup {Allegro vivace} << { \tweak Stem.direction #DOWN c''8[ \tweak Stem.direction #DOWN c''16 \tweak Stem.direction #DOWN c''16] \tweak Stem.direction #DOWN c''8[ \tweak Stem.direction #DOWN c''8] \tweak Stem.direction #DOWN c''8[ \tweak Stem.direction #DOWN c''8] } >> %1
   << { \tweak Stem.direction #UP c''8[ \tweak Stem.direction #UP g'8] \tweak Stem.direction #UP c''8[ \tweak Stem.direction #UP g'8] \tweak Stem.direction #UP c''8[ \tweak Stem.direction #UP g'8] } >> %2
   << { \tweak Stem.direction #DOWN c''8[ \tweak Stem.direction #DOWN c''8] \tweak Stem.direction #DOWN e''8[ \tweak Stem.direction #DOWN c''8] \tweak Stem.direction #DOWN e''8[ \tweak Stem.direction #DOWN g''8] } >> %3
   << { \tweak Stem.direction #DOWN e''8[ \tweak Stem.direction #DOWN c''8] \tweak Stem.direction #DOWN e''8[ \tweak Stem.direction #DOWN g''8] \tweak Stem.direction #DOWN e''8[ \tweak Stem.direction #DOWN c''8] } >> %4
@@ -246,27 +246,39 @@ mdivA_staffF = {
  \set StaffGroup.systemStartDelimiter = #'SystemStartBracket
   \override StaffGroup.BarLine.allow-span-bar = ##t
  \new Staff = "staff 1" \with { instrumentName = #"Trumpet 1 (C)" shortInstrumentName = #"Tpt. 1 (C)" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key c \major \time 3/4 \mdivA_staffA }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
  \new Staff = "staff 2" \with { instrumentName = #"Trumpet 2 (C)" shortInstrumentName = #"Tpt. 2 (C)" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key c \major \time 3/4 \mdivA_staffB }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffB }
  \new Staff = "staff 3" \with { instrumentName = #"Trumpet 3 (C)" shortInstrumentName = #"Tpt. 3 (C)" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key c \major \time 3/4 \mdivA_staffC }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffC }
 >>
  \new Staff = "staff 4" \with { instrumentName = #"Timpani" shortInstrumentName = #"Timp." } {
- \autoBeamOff \set tieWaitForNote = ##t
- \key c \major \time 3/4 \mdivA_staffD }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffD }
 \new StaffGroup \with { instrumentName = #"Organ" shortInstrumentName = #"Org." } <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
   \override StaffGroup.BarLine.allow-span-bar = ##t
  \new Staff = "staff 5" {
- \autoBeamOff \set tieWaitForNote = ##t
- \key c \major \time 3/4 \mdivA_staffE }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffE }
  \new Staff = "staff 6" {
- \autoBeamOff \set tieWaitForNote = ##t
- \key c \major \time 3/4 \mdivA_staffF }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffF }
 >>
 >>
 >>

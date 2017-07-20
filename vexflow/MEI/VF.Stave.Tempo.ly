@@ -1,4 +1,4 @@
-\version "2.19.58"
+\version "2.19.55"
 % automatically converted by mei2ly.xsl
 
 \header {
@@ -10,17 +10,17 @@
 }
 
 mdivA_staffA = {
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \tempo 4. = 80<< { c'4 d'4 b'4 c'4 } >> %1
-  \tempo 8.. = 90<< { c'4 d'4 b'4 c'4 } >> %2
-  \tempo 16. = 96<< { c'4 d'4 b'4 c'4 } >> %3
-  \tempo 32 = 70<< { c'4 d'4 b'4 c'4 } >> %4
-  \tempo \markup {Andante} << { c'8 d'8 g'8 e''8 c'8 d'8 g'8 e'8 } >> %5
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \once \override Score.MetronomeMark.direction = #UP \tempo 4. = 80<< { c'4 d'4 b'4 c'4 } >> %1
+  \once \override Score.MetronomeMark.direction = #UP \tempo 8.. = 90<< { c'4 d'4 b'4 c'4 } >> %2
+  \once \override Score.MetronomeMark.direction = #UP \tempo 16. = 96<< { c'4 d'4 b'4 c'4 } >> %3
+  \once \override Score.MetronomeMark.direction = #UP \tempo 32 = 70<< { c'4 d'4 b'4 c'4 } >> %4
+  \once \override Score.MetronomeMark.direction = #UP \tempo \markup {Andante} << { c'8 d'8 g'8 e''8 c'8 d'8 g'8 e'8 } >> %5
   { \break }
-  \tempo 1 = 80<< { c'4 d'4 b'4 c'4 } >> %6
-  \tempo 2 = 90<< { c'4 d'4 b'4 c'4 } >> %7
-  \tempo 4 = 96<< { c'4 d'4 b'4 c'4 } >> %8
-  \tempo 8 = 70<< { c'4 d'4 b'4 c'4 } >> %9
-  \tempo \markup {Andante grazioso} << { c'8 d'8 g'8 e''8 c'8 d'8 g'8 e'8 } >> %10
+  \once \override Score.MetronomeMark.direction = #UP \tempo 1 = 80<< { c'4 d'4 b'4 c'4 } >> %6
+  \once \override Score.MetronomeMark.direction = #UP \tempo 2 = 90<< { c'4 d'4 b'4 c'4 } >> %7
+  \once \override Score.MetronomeMark.direction = #UP \tempo 4 = 96<< { c'4 d'4 b'4 c'4 } >> %8
+  \once \override Score.MetronomeMark.direction = #UP \tempo 8 = 70<< { c'4 d'4 b'4 c'4 } >> %9
+  \once \override Score.MetronomeMark.direction = #UP \tempo \markup {Andante grazioso} << { c'8 d'8 g'8 e''8 c'8 d'8 g'8 e'8 } >> %10
 }
 
 
@@ -28,8 +28,10 @@ mdivA_staffA = {
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
  \new Staff = "staff 1" {
- \autoBeamOff \set tieWaitForNote = ##t
- \once \omit Staff.TimeSignature \set Score.automaticBars = ##f \mdivA_staffA }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \once \omit Staff.TimeSignature \set Score.automaticBars = ##f \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
 >>
 >>
 \layout {

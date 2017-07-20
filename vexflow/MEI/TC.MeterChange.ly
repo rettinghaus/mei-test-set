@@ -1,4 +1,4 @@
-\version "2.19.58"
+\version "2.19.55"
 % automatically converted by mei2ly.xsl
 
 \header {
@@ -36,17 +36,23 @@ mdivA_staffC = {
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
  \new Staff = "staff 1" \with { instrumentName = #"Voice" } {
- \override DynamicText.direction = #UP \override DynamicLineSpanner.direction = #UP \autoBeamOff \set tieWaitForNote = ##t
- \time 6/8 \mdivA_staffA }
+ \override DynamicText.direction = #UP \override DynamicLineSpanner.direction = #UP \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \time 6/8 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
   \override StaffGroup.BarLine.allow-span-bar = ##t
  \new Staff = "staff 2" \with { instrumentName = #"Right hand" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \time 6/8 \mdivA_staffB }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \time 6/8 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffB }
  \new Staff = "staff 3" \with { instrumentName = #"Left hand" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \time 6/8 \mdivA_staffC }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \time 6/8 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffC }
 >>
 >>
 >>

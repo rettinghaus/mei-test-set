@@ -1,4 +1,4 @@
-\version "2.19.58"
+\version "2.19.55"
 % automatically converted by mei2ly.xsl
 
 \header {
@@ -102,17 +102,25 @@ mdivA_staffD = {
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
   \override StaffGroup.BarLine.allow-span-bar = ##f
  \new Staff = "staff 1" \with { instrumentName = #"Supremus" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
  \new Staff = "staff 2" \with { instrumentName = #"Supremus" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffB }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffB }
  \new Staff = "staff 3" \with { instrumentName = #"Supremus" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffC }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffC }
  \new Staff = "staff 4" \with { instrumentName = #"Supremus" } {
- \autoBeamOff \set tieWaitForNote = ##t
- \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffD }
+ \override Staff.StaffSymbol.line-count = #5
+    \set Staff.autoBeaming = ##f 
+    \set tieWaitForNote = ##t
+ \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffD }
 >>
 >>
 >>
