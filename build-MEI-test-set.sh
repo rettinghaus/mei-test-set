@@ -16,7 +16,7 @@ do
   fname=$(basename "$file")
   dname=$(dirname "$file")
   echo $fname
-  saxonb-xslt -s:$file -xsl:mei2ly.xsl -o:${file%.mei}.ly && lilypond -dno-print-pages -dpreview --formats=png --loglevel=BASIC_PROGRESS --output=$dname ${file%.mei}.ly >> build.log 2>&1
+  saxonb-xslt -s:$file -xsl:mei2ly.xsl -o:${file%.mei}.ly include="sibstyle.ily"  && lilypond -dno-print-pages -dpreview --formats=png --loglevel=BASIC_PROGRESS --output=$dname ${file%.mei}.ly >> build.log 2>&1
   # rm ${file%.mei}.ly
 
   #-- add output to README.md

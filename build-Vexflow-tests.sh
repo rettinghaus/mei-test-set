@@ -16,7 +16,7 @@ do
   fname=$(basename "$file")
   dname=$(dirname "$file")
   echo $fname
-  saxonb-xslt -s:$file -xsl:mei2ly.xsl -o:${file%.mei}.ly && lilypond -dno-print-pages -dpreview --formats=png --loglevel=BASIC_PROGRESS --output=$dname ${file%.mei}.ly >> vexflow/build.log 2>&1
+  saxonb-xslt -s:$file -xsl:mei2ly.xsl -o:${file%.mei}.ly include="sibstyle.ily" && lilypond -dno-print-pages -dpreview --formats=png --loglevel=BASIC_PROGRESS --output=$dname ${file%.mei}.ly >> vexflow/build.log 2>&1
 
   #-- add output to README.md
   echo "### [$fname](MEI/$fname)" >> vexflow/README.md
