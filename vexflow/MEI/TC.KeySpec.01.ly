@@ -1,13 +1,15 @@
-\version "2.19.55"
-% automatically converted by mei2ly.xsl
+\version "2.20.0"
+% automatically converted from MEI by mei2ly.xsl
+
+\include "sibstyle.ily"
 
 \header {
-  copyright = \markup { © ,   }
   tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
 }
 
 mdivA_staffA = {
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { } >> %1
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key c \major   \tweak TimeSignature.style #'numbered \time 4/4 
+  << { } >> %1
 }
 
 
@@ -21,7 +23,7 @@ mdivA_staffA = {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
+ \key c \major \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
 >>
 >>
 >>

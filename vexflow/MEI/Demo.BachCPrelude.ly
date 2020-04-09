@@ -1,13 +1,15 @@
-\version "2.19.55"
-% automatically converted by mei2ly.xsl
+\version "2.20.0"
+% automatically converted from MEI by mei2ly.xsl
+
+\include "sibstyle.ily"
 
 \header {
-  copyright = \markup { © ,   }
   tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
 }
 
 mdivA_staffA = {
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { r8 \tweak Stem.direction #UP g'16[ \tweak Stem.direction #UP c''16] \tweak Stem.direction #UP e''16[ \tweak Stem.direction #UP g'16 \tweak Stem.direction #UP c''16 \tweak Stem.direction #UP e''16] r8 \tweak Stem.direction #UP g'16[ \tweak Stem.direction #UP c''16] \tweak Stem.direction #UP e''16[ \tweak Stem.direction #UP g'16 \tweak Stem.direction #UP c''16 \tweak Stem.direction #UP e''16] } >> %1
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6   \tweak TimeSignature.style #'numbered \time 4/4 
+  << { r8 \tweak Stem.direction #UP g'16[ \tweak Stem.direction #UP c''16] \tweak Stem.direction #UP e''16[ \tweak Stem.direction #UP g'16 \tweak Stem.direction #UP c''16 \tweak Stem.direction #UP e''16] r8 \tweak Stem.direction #UP g'16[ \tweak Stem.direction #UP c''16] \tweak Stem.direction #UP e''16[ \tweak Stem.direction #UP g'16 \tweak Stem.direction #UP c''16 \tweak Stem.direction #UP e''16] } >> %1
   << { r8 \tweak Stem.direction #UP a'16[ \tweak Stem.direction #UP d''16] \tweak Stem.direction #UP f''16[ \tweak Stem.direction #UP a'16 \tweak Stem.direction #UP d''16 \tweak Stem.direction #UP f''16] r8 \tweak Stem.direction #UP a'16[ \tweak Stem.direction #UP d''16] \tweak Stem.direction #UP f''16[ \tweak Stem.direction #UP a'16 \tweak Stem.direction #UP d''16 \tweak Stem.direction #UP f''16] } >> %2
   << { r8 \tweak Stem.direction #UP g'16[ \tweak Stem.direction #UP d''16] \tweak Stem.direction #UP f''16[ \tweak Stem.direction #UP g'16 \tweak Stem.direction #UP d''16 \tweak Stem.direction #UP f''16] r8 \tweak Stem.direction #UP g'16[ \tweak Stem.direction #UP d''16] \tweak Stem.direction #UP f''16[ \tweak Stem.direction #UP g'16 \tweak Stem.direction #UP d''16 \tweak Stem.direction #UP f''16] } >> %3
   { \break }
@@ -18,7 +20,8 @@ mdivA_staffA = {
 }
 
 mdivA_staffB = {
-  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6 << { r16 \tweak Stem.direction #DOWN e'8.~ \tweak Stem.direction #DOWN e'4 r16 \tweak Stem.direction #DOWN e'8.~ \tweak Stem.direction #DOWN e'4 } \\ { \tweak Stem.direction #UP c'2 \tweak Stem.direction #UP c'2 } >> %1
+  \set Staff.clefGlyph = #"clefs.F" \set Staff.clefPosition = #2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #6 \set Staff.middleCClefPosition = #6   \tweak TimeSignature.style #'numbered \time 4/4 
+  << { r16 \tweak Stem.direction #DOWN e'8.~ \tweak Stem.direction #DOWN e'4 r16 \tweak Stem.direction #DOWN e'8.~ \tweak Stem.direction #DOWN e'4 } \\ { \tweak Stem.direction #UP c'2 \tweak Stem.direction #UP c'2 } >> %1
   << { r16 \tweak Stem.direction #DOWN d'8.~ \tweak Stem.direction #DOWN d'4 r16 \tweak Stem.direction #DOWN d'8.~ \tweak Stem.direction #DOWN d'4 } \\ { \tweak Stem.direction #UP c'2 \tweak Stem.direction #UP c'2 } >> %2
   << { r16 \tweak Stem.direction #DOWN d'8.~ \tweak Stem.direction #DOWN d'4 r16 \tweak Stem.direction #DOWN d'8.~ \tweak Stem.direction #DOWN d'4 } \\ { \tweak Stem.direction #UP b2 \tweak Stem.direction #UP b2 } >> %3
   { \break }
@@ -36,12 +39,12 @@ mdivA_staffB = {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \set Staff.keyAlterations = #`() \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
+ \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffA }
  \new Staff = "staff 2" {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \set Staff.keyAlterations = #`() \tweak TimeSignature.style #'numbered \time 4/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffB }
+ \tweak TimeSignature.style #'numbered \time 4/4 \mdivA_staffB }
 >>
 >>
 \layout {

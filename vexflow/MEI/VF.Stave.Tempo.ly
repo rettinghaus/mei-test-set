@@ -1,5 +1,7 @@
-\version "2.19.55"
-% automatically converted by mei2ly.xsl
+\version "2.20.0"
+% automatically converted from MEI by mei2ly.xsl
+
+\include "sibstyle.ily"
 
 \header {
   copyright = \markup { © Prepared by:Raffaele Viglianti,   }
@@ -31,7 +33,7 @@ mdivA_staffA = {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \once \omit Staff.TimeSignature \set Score.automaticBars = ##f \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
+ \once \omit Staff.TimeSignature \set Score.automaticBars = ##f \mdivA_staffA }
 >>
 >>
 \layout {

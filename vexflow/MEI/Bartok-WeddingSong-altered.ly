@@ -1,5 +1,7 @@
-\version "2.19.55"
-% automatically converted by mei2ly.xsl
+\version "2.20.0"
+% automatically converted from MEI by mei2ly.xsl
+
+\include "sibstyle.ily"
 
 \header {
   copyright = \markup { © Prepared byZoltán Kőmíves,   }
@@ -10,27 +12,33 @@
 }
 
 mdivA_staffA = {
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { R4*2 } >> %1
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key d \minor   \time 2/4 
+  << { R4*2 } >> %1
   << { d''1 } \\ { d'1 } >> %2
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { \tweak Stem.direction #UP ees''!2( d''1) } \\ { d'1. } >> %3
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key d \minor   \time 3/2 
+  << { \tweak Stem.direction #UP ees''!2( d''1) } \\ { d'1. } >> %3
   << { \tweak Stem.direction #UP cis''!2( d''1) } \\ { d'1. } >> %4
   { \break }
   << { \tweak Stem.direction #UP ees''!2( b'1) } \\ { d'1. } >> %5
   << { b'!1( \tweak Stem.direction #UP cis''!2) } \\ { d'1. } >> %6
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { < a' g' >1 } >> %7
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key d \minor   \tweak TimeSignature.style #'numbered \time 2/2 
+  << { < a' g' >1 } >> %7
   << { < d'' d'-\accent >1[ < a' fis'!-\staccato >1] r4 r2 } >> %8
   << { r2 < a'~ g'~ >1 } >> %9
 }
 
 mdivA_staffB = {
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { d''8[-\tenuto d''8-\tenuto d''8-\tenuto d''8]-\tenuto \tweak Stem.direction #DOWN c''8[-\tenuto \tweak Stem.direction #DOWN b'8-\tenuto \tweak Stem.direction #DOWN a'8-\tenuto \tweak Stem.direction #DOWN b'8]-\tenuto } >> %1
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key d \minor   \time 2/4 
+  << { d''8[-\tenuto d''8-\tenuto d''8-\tenuto d''8]-\tenuto \tweak Stem.direction #DOWN c''8[-\tenuto \tweak Stem.direction #DOWN b'8-\tenuto \tweak Stem.direction #DOWN a'8-\tenuto \tweak Stem.direction #DOWN b'8]-\tenuto } >> %1
   << { \tweak Stem.direction #UP c''8[-\tenuto \tweak Stem.direction #UP b'8-\tenuto \tweak Stem.direction #UP a'8-\tenuto \tweak Stem.direction #UP d'8~]-\> d'4 a'8\!-\staccato r8 } >> %2
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { g'4. d'8 e'8 f'2.. } >> %3
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key d \minor   \time 3/2 
+  << { g'4. d'8 e'8 f'2.. } >> %3
   << { c''4. b'8 a'8 d'4.~ d'4 a'8-\staccato r8 } >> %4
   { \break }
   << { g'4 d'4 e'8 f'2.. } >> %5
   << { bes'!4 a'4 g'2. a'4 } >> %6
-  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 << { g'8-\staccato d'2.. } >> %7
+  \set Staff.clefGlyph = #"clefs.G" \set Staff.clefPosition = #-2 \set Staff.clefTransposition = #0 \set Staff.middleCPosition = #-6 \set Staff.middleCClefPosition = #-6 \key d \minor   \tweak TimeSignature.style #'numbered \time 2/2 
+  << { g'8-\staccato d'2.. } >> %7
   << { d'8-\accent d'8-\staccato r4 r2 } >> %8
   << { g'8[-\tenuto g'8-\tenuto g'8-\tenuto g'8]-\tenuto f'8[-\tenuto ees'!8-\tenuto d'8-\tenuto e'8]-\tenuto } >> %9
 }
@@ -43,12 +51,12 @@ mdivA_staffB = {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \key d \minor \time 2/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
+ \key d \minor \time 2/4 \mdivA_staffA }
  \new Staff = "staff 2" \with { instrumentName = #"Violin II." } {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \key d \minor \time 2/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffB }
+ \key d \minor \time 2/4 \mdivA_staffB }
 >>
 >>
 \layout {

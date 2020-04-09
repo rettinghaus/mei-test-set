@@ -1,12 +1,13 @@
-\version "2.19.55"
-% automatically converted by mei2ly.xsl
+\version "2.20.0"
+% automatically converted from MEI by mei2ly.xsl
+
+\include "sibstyle.ily"
 
 \header {
   date = \markup { 2011 }
   copyright = \markup { © Musikwissenschaftliches Seminar <Detmold>,  2011 }
   tagline = "automatically converted from MEI with mei2ly.xsl and engraved with Lilypond"
-  title = "La Descente de mars"
-  composer = "Jean-Baptiste Lully"
+  title = \markup {La Descente de mars}  composer = "Jean-Baptiste Lully"
 
   % Revision Description
   % 1. The original MusicXML file was generated using Finale 2010 for Windows and Dolet Light for Finale 2010.
@@ -239,6 +240,16 @@ mdivA_staffF = {
 }
 
 
+\markup{\center-align {LA DESCENTE DE MARS}\center-align {
+									pour trois 
+									\italic {Trompettes naturelles},
+									
+									Orgue et Timbales
+								}\left-align {Score} / 
+							\italic {Small orchestra}\right-align {
+								Jean Baptiste Lully (1632-1687)
+								\italic {Arr.}Michel Rondeau}}
+
 \score { <<
 \new StaffGroup <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBar
@@ -249,23 +260,23 @@ mdivA_staffF = {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffA }
+ \key c \major \time 3/4 \mdivA_staffA }
  \new Staff = "staff 2" \with { instrumentName = #"Trumpet 2 (C)" shortInstrumentName = #"Tpt. 2 (C)" } {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffB }
+ \key c \major \time 3/4 \mdivA_staffB }
  \new Staff = "staff 3" \with { instrumentName = #"Trumpet 3 (C)" shortInstrumentName = #"Tpt. 3 (C)" } {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffC }
+ \key c \major \time 3/4 \mdivA_staffC }
 >>
  \new Staff = "staff 4" \with { instrumentName = #"Timpani" shortInstrumentName = #"Timp." } {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffD }
+ \key c \major \time 3/4 \mdivA_staffD }
 \new StaffGroup \with { instrumentName = #"Organ" shortInstrumentName = #"Org." } <<
  \set StaffGroup.systemStartDelimiter = #'SystemStartBrace
   \override StaffGroup.BarLine.allow-span-bar = ##t
@@ -273,12 +284,12 @@ mdivA_staffF = {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffE }
+ \key c \major \time 3/4 \mdivA_staffE }
  \new Staff = "staff 6" {
  \override Staff.StaffSymbol.line-count = #5
     \set Staff.autoBeaming = ##f 
     \set tieWaitForNote = ##t
- \key c \major \time 3/4 \override Staff.BarLine.allow-span-bar = ##f \mdivA_staffF }
+ \key c \major \time 3/4 \mdivA_staffF }
 >>
 >>
 >>
